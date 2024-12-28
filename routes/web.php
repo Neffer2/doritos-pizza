@@ -16,17 +16,18 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/premios', function () {
     return view('dashboard.premios');
-})->name('premios')->middleware('ruleta');
+})->middleware('ruleta')->name('premios');
 Route::get('/puntaje', function () {
     return view('dashboard.puntaje');
-})->name('puntaje')->middleware('ruleta');
-Route::get('/ranking', [HomeController::class, 'ranking'])->name('ranking')->middleware('ruleta');
-Route::get('/registrar_codigo', [HomeController::class, 'registrarCodigo'])->name('registrar_codigo')->middleware('ruleta');
+})->middleware('ruleta')->name('puntaje');
+Route::get('/ranking', [HomeController::class, 'ranking'])->middleware('ruleta')->name('ranking');
+Route::get('/registrar_codigo', [HomeController::class, 'registrarCodigo'])->middleware('ruleta')->name('registrar_codigo');
 Route::get('/', function () {
     return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard')->middleware('ruleta');
+})->middleware(['auth', 'verified'])->middleware('ruleta')->name('dashboard');
 
-Route::get('/ruleta', [HomeController::class, 'showRuleta'])->name('ruleta')->middleware('participante');
+Route::get('/ruleta', [HomeController::class, 'showRuleta'])->middleware('participante')->name('ruleta');
+Route::post('/storePuntos', [HomeController::class, 'storePuntos'])->middleware('participante')->name('storePuntos');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

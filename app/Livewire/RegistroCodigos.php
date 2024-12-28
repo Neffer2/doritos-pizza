@@ -30,7 +30,15 @@ class RegistroCodigos extends Component
             'codigo' => 'required'
         ]);
 
-        $codigo = Codigo::where('description', $this->codigo)->first();
+        $codigo = Codigo::where([
+            ['description', $this->codigo],
+            ['estado_id', 1]
+        ])->first();
+
+        if (!$codigo) {
+            return redirect()->back()->with('error', 'El código no es válido');
+        }
+
         $codigo->estado_id = 2;
         $codigo->save();
 

@@ -35,4 +35,16 @@ class HomeController extends Controller
     public function showRuleta(){
         return view('dashboard.ruleta');
     }
+
+    public function storePuntos(Request $request){
+        $user = auth()->user();
+        $user->puntos += $request->puntos;
+        $user->estado_id = 1;
+        $user->save();
+
+        return json_encode([
+            'status' => 200, // No stock
+            'message' => "Puntaje sumado exitosamente"
+        ]);
+    }
 }

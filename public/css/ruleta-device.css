@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'primary-font';
+    src: url('../assets/mobile/fonts/DoritosHeadline_BlkIt.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'primary-font', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #000;
+}
+
+canvas {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+@media (max-width: 768px) {
+    #game-container-desk {
+        display: none;
+    }
+
+    #game-container-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    #game-container-desk {
+        display: block;
+    }
+
+    #game-container-mobile {
+        display: none;
+    }
+}
