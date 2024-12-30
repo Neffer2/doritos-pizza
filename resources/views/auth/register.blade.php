@@ -72,7 +72,7 @@
     
             <div class="register-btn-container">
                 <x-primary-button class="register-btn">
-                    <img src="{{ asset('assets/landing-desktop/aceptar-btn.png') }}" alt="Register">
+                    <img src="{{ asset('assets/landing/aceptar-btn.png') }}" alt="Register">
                 </x-primary-button>
             </div>
         </form>

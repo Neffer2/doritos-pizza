@@ -24,7 +24,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 100vh;
-    background-image: url('../assets/landing-desktop/desktop-login-registro.jpg');
+    background-image: url('../assets/landing/desktop-login-registro.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 
 .register-content h1 {
     font-family: 'DoritosHeadline Bk';
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 5px;
     text-transform: uppercase;
     color: #ea4a13;

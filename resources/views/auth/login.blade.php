@@ -37,7 +37,7 @@
 
             <div class="login-btn-container">
                 <x-primary-button class="login-btn">
-                    <img src="{{ asset('assets/landing-desktop/aceptar-btn.png') }}" alt="Log in">
+                    <img src="{{ asset('assets/landing/aceptar-btn.png') }}" alt="Log in">
                 </x-primary-button>
             </div>
         </form>
