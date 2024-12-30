@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('content')
     <div class="main-home-container">
+        <div class="doritos-logo-container">
+            <img src="{{ asset('assets/landing/doritos-logo.png') }}" alt="Doritos">
+
+        </div>
         <div class="home-info-container">
             <img src="{{ asset('assets/landing/info-home-text.png') }}" alt="">
         </div>
