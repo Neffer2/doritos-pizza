@@ -66,4 +66,10 @@
     width: 33%;
     max-width: 500px;
     margin: 30px;
+    transition: all 0.5s ease;
+}
+
+.volver-logo-container img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
