@@ -18,3 +18,22 @@
     font-family: 'MyriadPro Regular';
     src: url(../fonts/MyriadPro-Regular.otf);
 }
+
+.volver-logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.volver-logo-container img {
+    width: 33%;
+    max-width: 500px;
+    margin: 30px;
+    transition: all 0.5s ease;
+}
+
+.volver-logo-container img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

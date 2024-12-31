@@ -1,0 +1,43 @@
+.main-codigo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url('../assets/landing/codigo-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.input-codigo {
+    padding: 30px 10px;
+    font-size: 2.3rem;
+    background-color: #ea4a13;
+    border: none;
+    color: #fff;
+    font-family: 'DoritosHeadline Bk', sans-serif;
+    border-radius: 40px;
+}
+
+.registrar-codigo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.codigo-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.codigo-img-container img {
+    width: 100%;
+}
