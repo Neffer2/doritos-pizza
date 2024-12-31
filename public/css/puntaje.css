@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-puntaje-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/landing/puntaje-bg.jpg);
+    color: #fff;
+}
+
+.puntaje-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.puntaje-img img {
+    width: 80%;
+}
+
+.puntaje-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'DoritosHeadline Bk';
+    text-transform: uppercase;
+}
+
+.puntaje-text {
+    font-size: 5rem;
+}
+
+.puntaje-number {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-size: 12rem;
+}
+
+.puntaje-info {
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+.puntaje-text-container img {
+    width: 60%;
+}
+
+.volver-logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.volver-logo-container img {
+    width: 33%;
+    max-width: 500px;
+    margin: 30px;
+}

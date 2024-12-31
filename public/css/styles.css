@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'DoritosHeadline Bk';
+    src: url(../fonts/DoritosHeadline_BlkIt.ttf);
+}
+
+@font-face {
+    font-family: 'DoritosHeadline Md';
+    src: url(../fonts/DoritosHeadline_MdIt.ttf);
+}
+
+@font-face {
+    font-family: 'MyriadPro Regular';
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
