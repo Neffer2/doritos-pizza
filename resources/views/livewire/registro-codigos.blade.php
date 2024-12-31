@@ -6,14 +6,14 @@
     </div>
 
     <div class="registrar-codigo-container">
-        <img src=" {{ asset('assets/landing/doritos-logo.png') }}" alt="">
-        <img src="{{ asset('assets/landing/codigo-text-info1.png') }}" alt="">
+        <img class="doritos-logo-codigos" src=" {{ asset('assets/landing/doritos-logo.png') }}" alt="">
+        <img class="info-text-1" src="{{ asset('assets/landing/codigo-text-info1.png') }}" alt="">
         <input class="input-codigo" type="text" wire:model.lazy="codigo">
-        <button wire:click="RegistrarCodigo">Registrar</button>
+        <button class="btn-codigo" wire:click="RegistrarCodigo">Registrar</button>
         @session('error')
-            <span>{{ session('error') }}</span>
+            <span class="error-codigo-text">{{ session('error') }}</span>
         @endsession
-        <img src="{{ asset('assets/landing/codigo-text-info.png') }}" alt="">
+        <img class="info-text-2" src="{{ asset('assets/landing/codigo-text-info.png') }}" alt="">
     </div>
 
     <div class="codigo-img-container">
