@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ time() }}">
     <link rel="stylesheet" href="{{ asset('css/puntaje.css') }}?v={{ time() }}">
     <link rel="stylesheet" href="{{ asset('css/codigo.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/premios.css') }}?v={{ time() }}">
     <title>Doritos Pizza</title>
     @livewireStyles
 </head>

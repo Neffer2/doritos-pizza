@@ -1,10 +1,18 @@
 @extends('layouts.app')
 @section('content')
-    <h1>Premios</h1>
-    <p>En esta secci&oacute;n podr&aacute;s ver los premios que puedes ganar.</p>
-    <ul>
-        <li>1 pizza gratis</li>
-        <li>2 pizzas gratis</li>
-        <li>3 pizzas gratis</li>
-    </ul>
+    <div class="main-premios-container">
+        <div class="volver-logo-container">
+            <a href="/">
+                <img src="{{ asset('assets/landing/volver-logo.png') }}" alt="Volver logo">
+            </a>
+
+        </div>
+        <div class="top-premios">
+            <img src="{{ asset('assets/landing/premios-text.png') }}" alt="Premios Text">
+        </div>
+        <div class="bottom-premios">
+            <img src="{{ asset('assets/landing/premio-pizza-maker.png') }}" alt="Pizza Maker">
+            <img src="{{ asset('assets/landing/premio-wafleras-mini.png') }}" alt="Wafleras Mini">
+        </div>
+    </div>
 @endsection
