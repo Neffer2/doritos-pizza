@@ -1,6 +1,6 @@
 <title>Doritos Pizza | Registro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ asset('css/register.css') }}">
-
 <div class="main-register-container">
     <div class="register-content">
         <h1>Registro</h1>

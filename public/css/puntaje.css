@@ -55,3 +55,45 @@
     width: 60%;
 }
 
+/* Mobile media query */
+
+@media screen and (max-width: 768px) {
+    .main-puntaje-container {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .puntaje-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .puntaje-img img {
+        width: 95%;
+    }
+
+    .puntaje-text-container {
+        height: auto;
+    }
+
+    .puntaje-text {
+        font-size: 3rem;
+    }
+
+    .puntaje-number {
+        font-size: 6rem;
+    }
+
+    .puntaje-info {
+        font-size: 2rem;
+    }
+
+    .puntaje-text-container img {
+        width: 90%;
+    }
+}
+

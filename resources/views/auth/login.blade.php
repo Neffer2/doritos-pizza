@@ -1,6 +1,6 @@
 <title>Doritos Pizza | Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ asset('css/login.css') }}">
-
 <div class="main-login-container">
     <div class="login-content">
         <h1>Iniciar sesión</h1>

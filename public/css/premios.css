@@ -38,3 +38,24 @@
 .bottom-premios img {
     width: 30%;
 }
+
+/* Mobile Media Query */
+
+@media screen and (max-width: 768px) {
+    .main-premios-container {
+        height: 100vh;
+    }
+
+    .top-premios img {
+        width: 80%;
+    }
+
+    .bottom-premios {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bottom-premios img {
+        width: 80%;
+    }
+}

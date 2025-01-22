@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'DoritosHeadline Md';
-    src: url(../fonts/DoritosHeadline_MdIt.ttf);
+    src: url(../fonts/MyriadPro-Regular.otf);
 }
 
 @font-face {
@@ -113,22 +113,24 @@
     margin-top: 5px;
 }
 
-
-.forgot-password-container, .registro-container {
+.forgot-password-container,
+.registro-container {
     display: flex;
     justify-content: center;
     width: 70%;
     margin-bottom: 15px;
 }
 
-.forgot-password-container a, .registro-container a {
+.forgot-password-container a,
+.registro-container a {
     font-family: 'MyriadPro Regular';
     font-size: 1.2rem;
     color: #00cb9b;
     text-decoration: none;
 }
 
-.forgot-password-container a:hover, .registro-container a:hover {
+.forgot-password-container a:hover,
+.registro-container a:hover {
     text-decoration: underline;
 }
 
@@ -150,7 +152,16 @@
 }
 
 /* Mobile media query */
-
 @media (max-width: 768px) {
-    
+    .main-login-container {
+        background-image: url('../assets/landing/home-bg.jpg');
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .login-content {
+        width: 100%;
+    }
 }

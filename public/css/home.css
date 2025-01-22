@@ -51,7 +51,6 @@
 .image-row img:hover {
     cursor: pointer;
     transform: scale(1.1);
-
 }
 
 .home-info-container {
@@ -62,4 +61,40 @@
 
 .home-info-container img {
     width: 75%;
+}
+
+/* Mobile media query */
+@media (max-width: 768px) {
+    .main-home-container {
+        height: 100vh;
+    }
+
+    .doritos-logo-container img {
+        width: 50%;
+        max-width: 200px;
+        margin: 10px;
+    }
+
+    .home-options-container {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .image-row {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .image-row img {
+        width: 80%;
+        max-width: 150px;
+    }
+
+    .top-home-img {
+        display: none;
+    }
+
+    .home-info-container img {
+        width: 95%;
+    }
 }

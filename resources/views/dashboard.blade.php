@@ -6,7 +6,7 @@
 
         </div>
         <div class="home-info-container">
-            <img src="{{ asset('assets/landing/info-home-text.png') }}" alt="">
+            <img class="top-home-img" src="{{ asset('assets/landing/info-home-text.png') }}" alt="">
         </div>
         <div class="home-options-container">
             <div class="image-row">
