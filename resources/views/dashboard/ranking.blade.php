@@ -1,6 +1,12 @@
 @extends('layouts.app')
 @section('content')
     <div class="main-ranking-container">
+        <div class="volver-logo-container">
+            <a href="/">
+                <img src="{{ asset('assets/landing/volver-logo.png') }}" alt="Volver logo">
+            </a>
+
+        </div>
         <div class="ranking-info">
             <img class="ranking-logo-img" src="{{ asset('assets/landing/ranking-text-img.png') }}" alt="Ranking logo">
             <img class="ranking-text-img" src="{{ asset('assets/landing/ranking-text.png') }}" alt="Ranking Text">
@@ -20,8 +26,8 @@
                             <img src="{{ asset('assets/landing/ranking-premio-1.png') }}" alt="aaa">
                         </div>
                     </div>
+                @endforeach
             </div>
-            @endforeach
         </div>
 
     </div>

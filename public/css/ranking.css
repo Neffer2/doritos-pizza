@@ -56,7 +56,7 @@
     justify-content: center;
     max-width: 250px;
     min-width: 250px;
-    height: 150px;
+    height: 100px;
     text-align: center;
     background-color: #fff;
     color: #000;
@@ -67,17 +67,17 @@
 }
 
 .prize-cell img {
-    width: 50%;
+    width: 45%;
 }
 
 .position-cell {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 350px;
-    min-width: 300px;
+    max-width: 400px;
+    min-width: 400px;
     padding: 0 15px;
-    height: 150px;
+    height: 100px;
     text-align: center;
     background-color: #fff;
     color: #000;
