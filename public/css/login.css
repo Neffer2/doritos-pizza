@@ -113,17 +113,23 @@
     margin-top: 5px;
 }
 
-.forgot-password-container {
+
+.forgot-password-container, .registro-container {
     display: flex;
     justify-content: center;
     width: 70%;
+    margin-bottom: 15px;
 }
 
-.forgot-password-container a {
+.forgot-password-container a, .registro-container a {
     font-family: 'MyriadPro Regular';
     font-size: 1.2rem;
     color: #00cb9b;
     text-decoration: none;
+}
+
+.forgot-password-container a:hover, .registro-container a:hover {
+    text-decoration: underline;
 }
 
 .login-btn-container {
@@ -131,7 +137,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 20px;
 }
 
 .login-btn {
@@ -142,4 +147,10 @@
 
 .login-btn img {
     width: 90%;
+}
+
+/* Mobile media query */
+
+@media (max-width: 768px) {
+    
 }
