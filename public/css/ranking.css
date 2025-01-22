@@ -1,0 +1,110 @@
+.main-ranking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url(../assets/landing/puntaje-bg.jpg);
+    color: #fff;
+}
+
+.ranking-info {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.ranking-logo-img {
+    width: 80%;
+}
+
+.ranking-text-img {
+    width: 65%;
+}
+
+.ranking-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+.ranking-table-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.ranking-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.points-cell, .prize-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    min-width: 250px;
+    height: 150px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.position-cell img{
+    width: 20%;
+}
+
+.prize-cell img {
+    width: 50%;
+}
+
+.position-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 350px;
+    min-width: 300px;
+    padding: 0 15px;
+    height: 150px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.position-cell-number {
+    font-family: 'DoritosHeadline Bk';
+    color: #ea4a13;
+    font-size: 2.7rem;
+}
+
+.position-cell-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    text-align: center;
+    font-family: 'MyriadPro Regular';
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.points-cell {
+    background-color: #00cb9b;
+    font-family: 'DoritosHeadline Bk';
+    color: #fff;
+    font-size: 2.4rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 1px 0 #000;
+}
+
