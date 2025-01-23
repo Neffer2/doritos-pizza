@@ -108,3 +108,69 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 1px 0 #000;
 }
 
+/* Mobile media query */
+
+@media (max-width: 768px) {
+    .main-ranking-container {
+        flex-direction: column;
+        min-height: 100vh;
+        height: 100%;
+        background-size: contain;
+    }
+
+    .ranking-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ranking-display {
+        width: 90%;
+    }
+
+    .ranking-table-display {
+        width: 100%;
+    }
+
+    .ranking-table {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .position-cell {
+        max-width: 100px;
+        min-width: 100px;
+        padding: 5px;
+
+    }
+
+    .points-cell, .prize-cell {
+        max-width: 100px;
+        min-width: 100px;
+    }
+
+    .position-cell-number {
+        font-size: 1.5rem;
+    }
+
+    .position-cell-name {
+        width: 20px;
+        font-size: 0.8rem;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    .points-cell {
+        font-size: 1.5rem;
+    }
+
+    .player-icon {
+        display: none;
+    }
+
+    .prize-cell img {
+        width: 100%;
+    }
+
+}
+
+
