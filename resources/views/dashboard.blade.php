@@ -10,11 +10,11 @@
         </div>
         <div class="home-options-container">
             <div class="image-row">
-                <a href="{{ route('ranking') }}">
-                    <img src="{{ asset('assets/landing/ranking-img.png') }}" alt="Ranking">
-                </a>
                 <a href="{{ route('registrar_codigo') }}">
                     <img src="{{ asset('assets/landing/ingresa-codigo-img.png') }}" alt="Ingresa tu código">
+                </a>
+                <a href="{{ route('ranking') }}">
+                    <img src="{{ asset('assets/landing/ranking-img.png') }}" alt="Ranking">
                 </a>
             </div>
         </div>
