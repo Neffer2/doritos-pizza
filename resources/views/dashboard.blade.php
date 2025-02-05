@@ -10,14 +10,6 @@
         </div>
         <div class="home-options-container">
             <div class="image-row">
-                <a href="{{ route('premios') }}">
-                    <img src="{{ asset('assets/landing/premios-img.png') }}" alt="Premios">
-                </a>
-                <a href="{{ route('puntaje') }}">
-                    <img src="{{ asset('assets/landing/puntaje-img.png') }}" alt="Puntaje">
-                </a>
-            </div>
-            <div class="image-row">
                 <a href="{{ route('ranking') }}">
                     <img src="{{ asset('assets/landing/ranking-img.png') }}" alt="Ranking">
                 </a>
