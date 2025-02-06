@@ -19,11 +19,23 @@
 }
 
 .ranking-logo-img {
-    width: 80%;
+    width: 75%;
 }
 
 .ranking-text-img {
     width: 65%;
+}
+
+.ranking-text-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ranking-price {
+    width: 40%;
 }
 
 .ranking-display {

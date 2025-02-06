@@ -26,8 +26,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .image-row {
@@ -35,8 +35,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
-    gap: 50px;
+    margin-bottom: 10px;
 }
 
 .image-row a {
