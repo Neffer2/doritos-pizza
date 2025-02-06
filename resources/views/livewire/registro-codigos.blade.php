@@ -13,7 +13,9 @@
             <span class="error-codigo-text">{{ session('error') }}</span>
         @endsession
         <img class="info-text-2" src="{{ asset('assets/landing/codigo-text-info.png') }}" alt="">
-        <button class="btn-codigo" wire:click="RegistrarCodigo">Registrar</button>
+        <button class="btn-codigo" wire:click="RegistrarCodigo">
+            <img src="{{ asset('assets/landing/jugar-btn.png') }}" alt="" srcset="">
+        </button>
     </div>
 
     <div class="codigo-img-container">

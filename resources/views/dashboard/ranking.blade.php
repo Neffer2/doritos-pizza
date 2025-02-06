@@ -11,8 +11,8 @@
             <img class="ranking-logo-img" src="{{ asset('assets/landing/ranking-text-img.png') }}" alt="Ranking logo">
             <img class="ranking-text-img" src="{{ asset('assets/landing/ranking-text.png') }}" alt="Ranking Text">
             <div class="ranking-text-prices">
-                <img class="ranking-price" src="{{ asset('assets/landing/pizza-maker.png') }}" alt="Ranking Text">
-                <img class="ranking-price" src="{{ asset('assets/landing/waflera-mini.png') }}" alt="Ranking Text">
+                <img class="ranking-prize" src="{{ asset('assets/landing/pizza-maker.png') }}" alt="Ranking Text">
+                <img class="ranking-prize" src="{{ asset('assets/landing/waflera-mini.png') }}" alt="Ranking Text">
             </div>
         </div>
 
@@ -30,8 +30,11 @@
                             <img src="{{ asset('assets/landing/ranking-premio-1.png') }}" alt="aaa">
                         </div>
                     </div>
-                @endforeach
-            </div>
+                    @endforeach
+                </div>
+                <div class="user-position">
+                    <p><span class="bold-text-user">¡Estás en el puesto {{ $user_position }}!</span> Ingresa más códigos, sigue jugando y escala posiciones.</p>
+                </div>
         </div>
 
     </div>

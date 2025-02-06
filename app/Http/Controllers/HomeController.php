@@ -15,6 +15,9 @@ class HomeController extends Controller
     public function ranking(){
         $ranking = User::orderBy('puntos', 'desc')->get();
 
+        // Ranking actual de usuario activo
+
+
         $user_id = auth()->user()->id;
         $user_position = 0;
         $ranking->search(function($user) use ($user_id, &$user_position){
@@ -23,7 +26,7 @@ class HomeController extends Controller
         });
 
         return view('dashboard.ranking', [
-            'ranking' => $ranking->take(5),
+            'ranking' => $ranking->take(10),
             'user_position' => $user_position
         ]);
     }

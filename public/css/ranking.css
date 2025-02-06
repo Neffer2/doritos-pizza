@@ -34,7 +34,7 @@
     width: 100%;
 }
 
-.ranking-price {
+.ranking-prize {
     width: 40%;
 }
 
@@ -118,6 +118,27 @@
     color: #fff;
     font-size: 2.4rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 1px 0 #000;
+}
+
+.user-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93.8%;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'MyriadPro Regular';
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 5px;
+    background-color: #ff8d00;
+}
+
+.bold-text-user {
+    font-weight: bold;
+    font-family: 'DoritosHeadline Bk';
 }
 
 /* Mobile media query */
