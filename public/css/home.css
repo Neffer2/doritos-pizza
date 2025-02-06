@@ -17,8 +17,8 @@
 }
 
 .doritos-logo-container img {
-    width: 33%;
-    max-width: 500px;
+    width: 50%;
+    min-width: 220px;
     margin: 30px;
 }
 
@@ -26,8 +26,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .image-row {
@@ -40,18 +40,21 @@
 }
 
 .image-row a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin: 0 10px;
 }
 
 .image-row img {
-    width: 90%;
-    max-width: 250px;
+    width: 70%;
     transition: all 0.5s ease; 
 }
 
 .image-row img:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .home-info-container {
