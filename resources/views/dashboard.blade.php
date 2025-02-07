@@ -8,6 +8,10 @@
         <div class="home-info-container">
             <img class="top-home-img" src="{{ asset('assets/landing/info-home-text.png') }}" alt="">
         </div>
+        <div class="puntaje-mobile">
+            <img src="{{ asset('assets/landing/logo-doritos-mobile-1.png') }}" alt="">
+            <img src="{{ asset('assets/landing/logo-doritos-mobile-2.png') }}" alt="">
+        </div>
         <div class="home-options-container">
             <div class="image-row">
                 <a href="{{ route('registrar_codigo') }}">

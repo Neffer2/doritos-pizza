@@ -66,31 +66,45 @@
     width: 75%;
 }
 
+.puntaje-mobile {
+    display: none;
+}
+
 /* Mobile media query */
 @media (max-width: 768px) {
     .main-home-container {
-        height: 100vh;
+        background-image: url('../assets/landing/home-bg-mobile.jpg');
+        min-height: 100vh;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .doritos-logo-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .doritos-logo-container img {
-        width: 50%;
-        max-width: 500px;
+        width: 33%;
+        max-width: auto;
         margin: 10px;
     }
 
     .home-options-container {
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .image-row {
-        flex-direction: row;
+        flex-direction: column;
         gap: 0;
     }
 
     .image-row img {
         width: 80%;
-        max-width: 150px;
     }
 
     .top-home-img {
@@ -99,5 +113,16 @@
 
     .home-info-container img {
         width: 95%;
+    }
+
+    .puntaje-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .puntaje-mobile img {
+        width: 30%;
     }
 }

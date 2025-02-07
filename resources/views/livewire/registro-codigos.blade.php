@@ -17,9 +17,4 @@
             <img src="{{ asset('assets/landing/jugar-btn.png') }}" alt="" srcset="">
         </button>
     </div>
-
-    <div class="codigo-img-container">
-        <img src="{{ asset('assets/landing/doritos-pizza.png') }}" alt="">
-
-    </div>
 </div>

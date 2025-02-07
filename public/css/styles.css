@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @font-face {
@@ -27,7 +28,7 @@
 }
 
 .volver-logo-container img {
-    width: 33%;
+    width: 45%;
     max-width: 500px;
     margin: 30px;
     transition: all 0.5s ease;
@@ -36,4 +37,12 @@
 .volver-logo-container img:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+/* Mobile media query */
+
+@media (max-width: 768px) {
+    .volver-logo-container img {
+        width: 30%;
+    }
 }

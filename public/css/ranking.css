@@ -68,18 +68,18 @@
     justify-content: center;
     max-width: 250px;
     min-width: 250px;
-    height: 100px;
+    height: 75px;
     text-align: center;
     background-color: #fff;
     color: #000;
 }
 
 .position-cell img{
-    width: 20%;
+    width: 15%;
 }
 
 .prize-cell img {
-    width: 45%;
+    width: 33%;
 }
 
 .position-cell {
@@ -89,7 +89,7 @@
     max-width: 400px;
     min-width: 400px;
     padding: 0 15px;
-    height: 100px;
+    height: 75px;
     text-align: center;
     background-color: #fff;
     color: #000;
@@ -99,6 +99,7 @@
     font-family: 'DoritosHeadline Bk';
     color: #ea4a13;
     font-size: 2.7rem;
+    width: 20px;
 }
 
 .position-cell-name {
@@ -109,14 +110,15 @@
     text-align: center;
     font-family: 'MyriadPro Regular';
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 2px;
 }
 
 .points-cell {
     background-color: #00cb9b;
     font-family: 'DoritosHeadline Bk';
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 1px 0 #000;
 }
 
@@ -153,6 +155,7 @@
 
     .ranking-info {
         width: 100%;
+        margin-top: 100px;
         margin-bottom: 20px;
     }
 
@@ -182,18 +185,18 @@
     }
 
     .position-cell-number {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .position-cell-name {
         width: 20px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         margin-right: 10px;
         margin-left: 5px;
     }
 
     .points-cell {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .player-icon {
@@ -201,7 +204,13 @@
     }
 
     .prize-cell img {
-        width: 100%;
+        width: 70%;
+    }
+
+    .user-position {
+        width: 85%;
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
 
 }
