@@ -113,13 +113,13 @@
         margin-bottom: 25px;
     }
 
+    .logo-mobile img {
+        width: 55%;
+    }
     .btn-codigo img {
         width: 80%;
     }
 
-    .logo-mobile img {
-        width: 60%;
-    }
 }
 
 
