@@ -16,5 +16,8 @@
         <button class="btn-codigo" wire:click="RegistrarCodigo">
             <img src="{{ asset('assets/landing/jugar-btn.png') }}" alt="" srcset="">
         </button>
+        <div class="logo-mobile">
+            <img src="{{ asset('assets/landing/logo-codigos-mobile.png') }}" alt="">
+        </div>
     </div>
 </div>

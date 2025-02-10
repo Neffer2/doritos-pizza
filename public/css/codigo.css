@@ -68,12 +68,18 @@
     margin-top: 20px;
 }
 
+.logo-mobile {
+    display: none;
+}
+
 /* Mobile media query */
 
 @media (max-width: 768px) {
     .main-codigo-container {
         flex-direction: column;
         height: 100%;
+        background-image: url('../assets/landing/bg-codigos-mobile.jpg');
+        min-height: 100dvh;
     }
 
     .registrar-codigo-container {
@@ -90,6 +96,29 @@
 
     .info-text-2 {
         width: 90%;
+    }
+
+    .doritos-logo-codigos {
+        width: 50%;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .btn-codigo img {
+        width: 80%;
+    }
+
+    .logo-mobile img {
+        width: 60%;
     }
 }
 
