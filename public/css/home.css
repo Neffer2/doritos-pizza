@@ -47,7 +47,7 @@
 }
 
 .image-row img {
-    width: 70%;
+    width: 50%;
     transition: all 0.5s ease; 
 }
 
@@ -88,8 +88,8 @@
     }
 
     .doritos-logo-container img {
-        width: 33%;
-        max-width: auto;
+        width: 45%;
+        min-width: auto;
         margin: 10px;
     }
 
@@ -111,8 +111,13 @@
         display: none;
     }
 
+    .home-info-container {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
     .home-info-container img {
-        width: 95%;
+        width: 85%;
     }
 
     .puntaje-mobile {
