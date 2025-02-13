@@ -66,7 +66,7 @@
             </div>
 
             <div class="tyc-container">
-                <input type="checkbox" name="terms" id="terms" required>
+                <input type="checkbox" name="terms" id="terms">
                 <label for="password_confirmation">Aceptar Términos y Condiciones</label>
                 {{-- TODO: Agregar funcionalidad en base de datos --}}
             </div>
