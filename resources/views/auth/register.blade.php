@@ -47,7 +47,8 @@
                 @enderror
             </div>
 
-            <livewire:ciudades-component />
+            {{-- <livewire:ciudades-component /> --}}
+            @livewire('ciudades-component')
 
             <div class="input-container">
                 <label for="name">Direcci&oacute;n</label>
