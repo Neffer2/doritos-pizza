@@ -1,5 +1,6 @@
 <title>Doritos Pizza | Registro</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="{{ asset('assets/landing/favicon-96x96.png') }}" type="image/x-icon">
 <link rel="stylesheet" href="{{ asset('css/register.css') }}">
 <div class="main-register-container">
     <div class="register-content">
@@ -62,6 +63,12 @@
                 @error('password_confirmation')
                     <div>{{ $message }}</div>
                 @enderror
+            </div>
+
+            <div class="tyc-container">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="password_confirmation">Aceptar Términos y Condiciones</label>
+                {{-- TODO: Agregar funcionalidad en base de datos --}}
             </div>
     
             <div class="registered-container">
