@@ -14,7 +14,7 @@
                     <div>{{ $message }}</div>
                 @enderror
             </div>
-    
+
             <div class="input-container">
                 <label for="email">Correo</label>
                 <input id="email" type="email" name="email" :value="old('email')" required autocomplete="username" />
@@ -22,7 +22,7 @@
                     <div>{{ $message }}</div>
                 @enderror
             </div>
-    
+
             <div class="input-container">
                 <label for="document">Documento</label>
                 <input id="document" type="text" name="document" :value="old('document')" required autocomplete="" />
@@ -30,7 +30,7 @@
                     <div>{{ $message }}</div>
                 @enderror
             </div>
-    
+
             <div class="input-container">
                 <label for="celular">Celular</label>
                 <input id="celular" type="text" name="celular" :value="old('celular')" required autocomplete="" />
@@ -38,15 +38,17 @@
                     <div>{{ $message }}</div>
                 @enderror
             </div>
-    
+
+            <livewire:ciudades-component />
+
             <div class="input-container">
-                <label for="ciudad">Ciudad</label>
-                <input id="ciudad" type="text" name="ciudad" :value="old('ciudad')" required autocomplete="" />
-                @error('ciudad')
+                <label for="name">Direcci&oacute;n</label>
+                <input id="name" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+                @error('name')
                     <div>{{ $message }}</div>
                 @enderror
             </div>
-    
+
             <!-- Password -->
             <div class="input-container">
                 <label for="password">Contraseña</label>
@@ -55,7 +57,7 @@
                     <div>{{ $message }}</div>
                 @enderror
             </div>
-    
+
             <!-- Confirm Password -->
             <div class="input-container">
                 <label for="password_confirmation">Confirmar contraseña</label>
@@ -70,13 +72,13 @@
                 <label for="password_confirmation">Aceptar Términos y Condiciones</label>
                 {{-- TODO: Agregar funcionalidad en base de datos --}}
             </div>
-    
+
             <div class="registered-container">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
                     {{ __('¿Ya tienes una cuenta?') }}
                 </a>
             </div>
-    
+
             <div class="register-btn-container">
                 <x-primary-button class="register-btn">
                     <img src="{{ asset('assets/landing/aceptar-btn.png') }}" alt="Register">
