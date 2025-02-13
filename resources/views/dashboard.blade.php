@@ -20,11 +20,17 @@
                 <a href="{{ route('ranking') }}">
                     <img src="{{ asset('assets/landing/ranking-img.png') }}" alt="Ranking">
                 </a>
+                <div class="puntos-container"> 
+                    <p class="text-puntos-first">Llevas</p>
+                    <p class="text-puntos-middle">
+                        {{ auth()->user()->puntos }}
+                    </p>
+                    <p class="text-puntos-last">puntos</p>
+                </div>
             </div>
         </div>
         <div class="home-info-container">
             <img src="{{ asset('assets/landing/click-seccion-deseada.png') }}" alt="">
-
         </div>
     </div>
 @endsection

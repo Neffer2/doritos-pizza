@@ -56,6 +56,39 @@
     transform: scale(1.02);
 }
 
+.puntos-container {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: 13%;
+}
+
+.text-puntos-first, .text-puntos-last {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'DoritosHeadline Bk', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.text-puntos-middle {
+    font-size: 7.3rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'DoritosHeadline Bk', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: -15px;
+    margin-bottom: -25px;
+}
+
+.text-puntos-last {
+    color: #00cb9b;
+}
+
 .home-info-container {
     display: flex;
     flex-direction: column;
@@ -129,5 +162,9 @@
 
     .puntaje-mobile img {
         width: 30%;
+    }
+
+    .puntos-container {
+        display: none;
     }
 }
