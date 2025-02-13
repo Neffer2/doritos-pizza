@@ -23,8 +23,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 100%;
-    min-height: 120vh;
+    height: auto;
+    min-height: 100vh;
     background-image: url('../assets/landing/desktop-login-registro.jpg');
     background-size: cover;
     background-position: center;
