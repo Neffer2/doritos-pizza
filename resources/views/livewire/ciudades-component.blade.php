@@ -1,4 +1,4 @@
-<div>
+<div class="ciudad-departamento-container">
     <div class="input-container">
         <label for="departamento">Departamento</label>
         <select wire:model.live="departamento" id="departamento" name="departamento" value="{{ old('departamento') }}" required>
