@@ -41,7 +41,7 @@
 
             <div class="input-container">
                 <label for="name">Fecha Nacimiento</label>
-                <input id="name" type="date" name="fecha" required autofocus autocomplete="" min="2007-01-01"/>
+                <input id="name" type="date" name="fecha" required autofocus autocomplete="" max="2007-01-01"/>
                 @error('name')
                     <div>{{ $message }}</div>
                 @enderror
