@@ -39,11 +39,19 @@
                 @enderror
             </div>
 
+            <div class="input-container">
+                <label for="name">Fecha Nacimiento</label>
+                <input id="name" type="date" name="fecha" required autofocus autocomplete="" min="2007-01-01"/>
+                @error('name')
+                    <div>{{ $message }}</div>
+                @enderror
+            </div>
+
             <livewire:ciudades-component />
 
             <div class="input-container">
                 <label for="name">Direcci&oacute;n</label>
-                <input id="name" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+                <input id="name" type="text" name="name" :value="old('name')" required autofocus autocomplete="" />
                 @error('name')
                     <div>{{ $message }}</div>
                 @enderror
