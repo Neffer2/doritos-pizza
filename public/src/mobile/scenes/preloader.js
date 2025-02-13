@@ -31,6 +31,8 @@ export class Preloader extends Phaser.Scene {
         this.load.image('volver-btn', './tutorial/volver_btn.png');
         this.load.image('title', './tutorial/title.png');
         this.load.image('tutorial', './tutorial/tutorial.png');
+        this.load.image('tutorial2', './tutorial/tutorial2.png');
+        this.load.image('tutorial3', './tutorial/tutorial3.png'); 
 
         /* POPUP */
         this.load.image('title-score', './popup/title_score.png');

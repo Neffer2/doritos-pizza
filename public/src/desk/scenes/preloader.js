@@ -15,7 +15,7 @@ export class Preloader extends Phaser.Scene {
         this.load.spritesheet('player_fall', './animaciones/player_fall.png', { frameWidth: 893, frameHeight: 779 });        
 
         /* ELEMS */
-        this.load.image('background', './elems/bg.jpg');
+        this.load.image('background', './elems/bg.jpg'); 
         this.load.image('score-bg', './elems/score_bg.png');
         this.load.image('lives-bg', './elems/lives_bg.png');
         this.load.image('time-bg', './elems/time_bg.png');
@@ -31,6 +31,10 @@ export class Preloader extends Phaser.Scene {
         this.load.image('volver-btn', './tutorial/volver_btn.png');
         this.load.image('title', './tutorial/title.png');
         this.load.image('tutorial', './tutorial/tutorial.png');
+        this.load.image('tutorial2', './tutorial/tutorial2.png');
+        this.load.image('tutorial3', './tutorial/tutorial3.png'); 
+        this.load.spritesheet('anim1', './tutorial/anim1.png', { frameWidth: 240, frameHeight: 480 }); 
+        this.load.spritesheet('anim2', './tutorial/anim2.png', { frameWidth: 240, frameHeight: 480 }); 
 
         /* POPUP */
         this.load.image('title-score', './popup/title_score.png');

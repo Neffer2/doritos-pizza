@@ -12,10 +12,12 @@ export class Tutorial extends Phaser.Scene {
         let bg = this.add.image(0, 0, 'background_tutorial').setOrigin(0, 0);
         let title = this.add.image(width/2, (height/4), 'title');
         const fxShadow = title.preFX.addShadow(0, 0, 0.006, 2, 0x333333, 10);
-        let tutorial = this.add.image(width/2, ((title.y + title.height) + 180), 'tutorial');
+        let tutorial = this.add.image(width/2, ((height/2) - 30), 'tutorial');
+        let tutorial2 = this.add.image(width/2, (height/2) + 120, 'tutorial2');
+        let tutorial3 = this.add.image(width/2, ((height/2) + 300), 'tutorial3');
         let volverBtn = this.add.image(45, (title.y/5), 'volver-btn');
         volverBtn.setInteractive();
-        let acpetarBtn = this.add.image(width/2, ((tutorial.y + (tutorial.height - 225))), 'aceptar-btn');
+        let acpetarBtn = this.add.image(width/2, ((height/2) + 470), 'aceptar-btn');
         acpetarBtn.setInteractive();
 
         this.add.tween({
