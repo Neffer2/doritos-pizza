@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('ciudad');
             $table->string('password');
             $table->integer('puntos')->default(0);
+            $table->boolean('terminos')->default(0);
             $table->foreign('estado_id')->references('id')->on('estados');
             $table->foreignId('estado_id');
             $table->rememberToken();

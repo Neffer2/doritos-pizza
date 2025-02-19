@@ -40,20 +40,19 @@
             </div>
 
             <div class="input-container">
-                <label for="name">Fecha Nacimiento</label>
-                <input id="name" type="date" name="fecha" required autofocus autocomplete="" max="2007-01-01"/>
-                @error('name')
+                <label for="fecha">Fecha Nacimiento</label>
+                <input id="fecha" type="date" name="fecha" required autofocus autocomplete="" max="2007-01-01"/>
+                @error('fecha')
                     <div>{{ $message }}</div>
                 @enderror
             </div>
 
-            {{-- <livewire:ciudades-component /> --}}
             @livewire('ciudades-component')
 
             <div class="input-container">
-                <label for="name">Direcci&oacute;n</label>
-                <input id="name" type="text" name="name" :value="old('name')" required autofocus autocomplete="" />
-                @error('name')
+                <label for="direccion">Dirección</label>
+                <input id="direccion" type="text" name="direccion" :value="old('direccion')" required autofocus autocomplete="" />
+                @error('direccion')
                     <div>{{ $message }}</div>
                 @enderror
             </div>
@@ -77,9 +76,11 @@
             </div>
 
             <div class="tyc-container">
-                <input type="checkbox" name="terms" id="terms">
-                <label for="password_confirmation">Aceptar Términos y Condiciones</label>
-                {{-- TODO: Agregar funcionalidad en base de datos --}}
+                <input type="checkbox" name="terminos" id="terminos" required>
+                <label for="terminos">Aceptar Términos y Condiciones</label>
+                @error('terminos')
+                    <div>{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="registered-container">
