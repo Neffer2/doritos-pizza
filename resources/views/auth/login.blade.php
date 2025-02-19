@@ -45,6 +45,7 @@
                     <img src="{{ asset('assets/landing/aceptar-btn.png') }}" alt="Log in">
                 </x-primary-button>
             </div>
+            
         </form>
     </div>
 </div>
