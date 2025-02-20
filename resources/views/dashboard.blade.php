@@ -33,5 +33,4 @@
             <img src="{{ asset('assets/landing/click-seccion-deseada.png') }}" alt="">
         </div>
     </div>
-    @livewire('ciudades-component')
 @endsection
