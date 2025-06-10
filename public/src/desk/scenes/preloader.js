@@ -42,6 +42,7 @@ export class Preloader extends Phaser.Scene {
 
         this.load.image('burger', './elems/burger.png');
         this.load.image('dorito', './elems/dorito.png');
+        this.load.image('dorito2', './elems/dorito2.png');
     }
 
     create ()

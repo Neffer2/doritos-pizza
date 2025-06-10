@@ -47,7 +47,7 @@
 }
 
 .image-row img {
-    width: 65%;
+    width: 33%;
     transition: all 0.5s ease; 
 }
 
@@ -63,6 +63,7 @@
     align-items: center;
     flex-direction: column;
     right: 13%;
+    top: 25%;
 }
 
 .text-puntos-first, .text-puntos-last {
@@ -95,8 +96,15 @@
     align-items: center;
 }
 
-.home-info-container img {
-    width: 75%;
+.home-info-container p {
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: 'DoritosHeadline Bk', sans-serif;
+    text-transform: uppercase;
+}
+
+.home-info-container p span {
+    color: #00cb9b;
 }
 
 .puntaje-mobile {

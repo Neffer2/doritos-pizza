@@ -2,7 +2,7 @@ const VELOCITY = 600;
 // Useful vars
 let width, height, mContext, floor, player, elemsFall = [],
     scoreText, liveText, timeText, elemsInterval, time = 60, timeInterval, loose = false, gameOver = false, enablePost = true,
-    elemsKeys = ['dorito', 'burger'];
+    elemsKeys = ['dorito','dorito2', 'burger'];
 
 // Movements
 let goRight = false, goLeft = false, leftBtn, rightBtn, jumpBtn, jump = false;
@@ -191,7 +191,7 @@ export class Game extends Phaser.Scene {
     }
 
     hitElem(player, elem){
-        if (elem.texture.key === 'dorito' && !loose){
+        if (elem.texture.key === 'dorito' && !loose || elem.texture.key === 'dorito2' && !loose) {
             player.score += 5;
             scoreText.setText(player.score+" PTS");
         }else if(!loose) {

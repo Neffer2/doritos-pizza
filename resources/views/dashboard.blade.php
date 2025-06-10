@@ -6,7 +6,7 @@
 
         </div>
         <div class="home-info-container">
-            <img class="top-home-img" src="{{ asset('assets/landing/info-home-text.png') }}" alt="">
+            <p>Podrás acumular puntos desde el <span>xx de xxxxxxx de 2025 </span>hasta el <span>xx de xxxxxx del 2025</span></p>
         </div>
         <div class="puntaje-mobile">
             <img src="{{ asset('assets/landing/logo-doritos-mobile-1.png') }}" alt="">

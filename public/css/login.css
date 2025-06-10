@@ -35,7 +35,7 @@
     font-size: 2.6rem;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #ea4a13;
+    color: #00d2b4;
 }
 
 .login-content {
@@ -71,7 +71,7 @@
     text-transform: uppercase;
     font-weight: 800;
     font-style: italic;
-    color: #ff8d00;
+    color: #fff;
 }
 
 .email-container input {
@@ -99,7 +99,7 @@
     text-transform: uppercase;
     font-weight: 800;
     font-style: italic;
-    color: #ff8d00;
+    color: #fff;
 }
 
 .password-container input {
@@ -148,7 +148,8 @@
 }
 
 .login-btn img {
-    width: 90%;
+    margin-top: 10px;
+    width: 40%;
 }
 
 /* Mobile media query */
