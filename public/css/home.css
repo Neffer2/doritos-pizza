@@ -48,7 +48,7 @@
 
 .image-row img {
     width: 33%;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
 }
 
 .image-row img:hover {
@@ -66,7 +66,8 @@
     top: 25%;
 }
 
-.text-puntos-first, .text-puntos-last {
+.text-puntos-first,
+.text-puntos-last {
     font-size: 2rem;
     font-weight: bold;
     color: #fff;
@@ -113,6 +114,9 @@
 
 /* Mobile media query */
 @media (max-width: 768px) {
+
+    
+
     .main-home-container {
         background-image: url('../assets/landing/home-bg-mobile.jpg');
         min-height: 100vh;
@@ -155,10 +159,23 @@
     .home-info-container {
         margin-top: 0;
         margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .home-info-container p {
+        font-size: 1.1rem;
+        color: #fff;
+        font-family: 'DoritosHeadline Bk', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .home-info-container p span {
+        color: #00cb9b;
     }
 
     .home-info-container img {
-        width: 85%;
+        width: 90%;
     }
 
     .puntaje-mobile {

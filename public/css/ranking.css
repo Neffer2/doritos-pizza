@@ -116,7 +116,7 @@
 }
 
 .points-cell {
-    background-color: #00cb9b;
+    background-color: #00d2b4;
     font-family: 'DoritosHeadline Bk';
     color: #fff;
     font-size: 2rem;
@@ -149,9 +149,11 @@
 @media (max-width: 768px) {
     .main-ranking-container {
         flex-direction: column;
+        justify-content: flex-start;
+        background-image: url(../assets/landing/puntaje-bg-mobile.jpg);
+        background-size: cover;
         min-height: 100vh;
         height: 100%;
-        background-size: contain;
     }
 
     .ranking-info {
@@ -161,7 +163,7 @@
     }
 
     .ranking-display {
-        width: 90%;
+        width: 100%;
     }
 
     .ranking-table-display {
@@ -174,26 +176,25 @@
     }
 
     .position-cell {
-        max-width: 100px;
-        min-width: 100px;
+        max-width: 10px;
+        min-width: 120px;
         padding: 5px;
 
     }
 
     .points-cell, .prize-cell {
-        max-width: 100px;
-        min-width: 100px;
+        max-width: 120px;
+        min-width: 120px;
     }
 
     .position-cell-number {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 
     .position-cell-name {
         width: 20px;
-        font-size: 0.6rem;
-        margin-right: 10px;
-        margin-left: 5px;
+        font-size: 1rem;
+        margin: 20px;
     }
 
     .points-cell {

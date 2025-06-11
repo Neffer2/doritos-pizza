@@ -155,7 +155,7 @@
 /* Mobile media query */
 @media (max-width: 768px) {
     .main-login-container {
-        background-image: url('../assets/landing/home-bg.jpg');
+        background-image: url('../assets/landing/home-bg-mobile.jpg');
         background-position: center;
         justify-content: center;
         align-items: center;
