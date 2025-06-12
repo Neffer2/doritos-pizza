@@ -56,6 +56,10 @@
     transform: scale(1.02);
 }
 
+.puntos-container-mobile {
+    display: none;
+}
+
 .puntos-container {
     display: flex;
     position: absolute;
@@ -115,7 +119,7 @@
 /* Mobile media query */
 @media (max-width: 768px) {
 
-    
+
 
     .main-home-container {
         background-image: url('../assets/landing/home-bg-mobile.jpg');
@@ -192,4 +196,28 @@
     .puntos-container {
         display: none;
     }
+
+    .puntos-container-mobile {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        right: auto;
+        top: auto;
+    }
+
+    .text-puntos-first,
+    .text-puntos-last {
+        font-size: 1rem;
+        
+    }
+
+    .text-puntos-middle {
+        font-size: 4rem;
+        margin-top: -10px;
+        margin-bottom: -15px;
+    }
+
+    
 }

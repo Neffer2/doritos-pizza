@@ -6,10 +6,18 @@
 
         </div>
         <div class="home-info-container">
-            <p>Podrás acumular puntos desde el <span>xx de xxxxxxx de 2025 </span>hasta el <span>xx de xxxxxx del 2025</span></p>
+            <p>Podrás acumular puntos desde el <span>xx de xxxxxxx de 2025 </span>hasta el <span>xx de xxxxxx del
+                    2025</span></p>
         </div>
         <div class="puntaje-mobile">
             <img src="{{ asset('assets/landing/logo-doritos-mobile-1.png') }}" alt="">
+            <div class="puntos-container-mobile">
+                <p class="text-puntos-first">Llevas</p>
+                <p class="text-puntos-middle">
+                    {{ auth()->user()->puntos }}
+                </p>
+                <p class="text-puntos-last">puntos</p>
+            </div>
             <img src="{{ asset('assets/landing/logo-doritos-mobile-2.png') }}" alt="">
         </div>
         <div class="home-options-container">
@@ -20,7 +28,7 @@
                 <a href="{{ route('ranking') }}">
                     <img src="{{ asset('assets/landing/ranking-img.png') }}" alt="Ranking">
                 </a>
-                <div class="puntos-container"> 
+                <div class="puntos-container">
                     <p class="text-puntos-first">Llevas</p>
                     <p class="text-puntos-middle">
                         {{ auth()->user()->puntos }}
