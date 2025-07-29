@@ -30,27 +30,49 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        $request->validate([
+        $validationRules = [
             'name' => ['required', 'string', 'max:255'],
             'document' => ['required', 'string', 'max:255', 'unique:'.User::class],
             'celular' => ['required', 'string', 'max:255', 'unique:'.User::class],
-            'ciudad' => ['required', 'string', 'max:255'],
+            'departamento' => ['required', 'integer', 'exists:departamentos,id'],
+            'ciudad' => ['required', 'integer', 'exists:ciudades,id'],
+            'direccion' => ['required', 'string', 'max:255'],
+            'fecha' => ['required', 'date', 'before_or_equal:2007-01-01'],
             'terminos' => ['required', 'accepted'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
-        ]);
+        ];
 
-        $user = User::create([
+        // Si es Bogotá (ciudad_id = 107), agregar validaciones para localidad y barrio
+        if ($request->ciudad == 107) {
+            $validationRules['localidad'] = ['required', 'integer', 'exists:localidades,id'];
+            $validationRules['barrio'] = ['required', 'integer', 'exists:barrios,id'];
+        }
+
+        $request->validate($validationRules);
+
+        $userData = [
             'name' => $request->name,
             'document' => $request->document,
             'celular' => $request->celular,
-            'ciudad' => $request->ciudad,
+            'departamento_id' => $request->departamento,
+            'ciudad_id' => $request->ciudad,
+            'direccion' => $request->direccion,
+            'fecha_nacimiento' => $request->fecha,
             'puntos' => 0,
             'estado_id' => 1,
             'terminos' => $request->has('terminos') ? 1 : 0,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-        ]);
+        ];
+
+        // Si es Bogotá, agregar localidad y barrio
+        if ($request->ciudad == 107) {
+            $userData['localidad_id'] = $request->localidad;
+            $userData['barrio_id'] = $request->barrio;
+        }
+
+        $user = User::create($userData);
 
         event(new Registered($user));
 

@@ -21,7 +21,12 @@ class User extends Authenticatable
         'name',
         'document',
         'celular',
-        'ciudad',
+        'departamento_id',
+        'ciudad_id',
+        'localidad_id',
+        'barrio_id',
+        'direccion',
+        'fecha_nacimiento',
         'email',
         'password',
         'terminos',
@@ -47,5 +52,27 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
+        'fecha_nacimiento' => 'date',
     ];
+
+    // Relaciones
+    public function departamento()
+    {
+        return $this->belongsTo(Departamento::class);
+    }
+
+    public function ciudad()
+    {
+        return $this->belongsTo(Ciudad::class);
+    }
+
+    public function localidad()
+    {
+        return $this->belongsTo(Localidad::class);
+    }
+
+    public function barrio()
+    {
+        return $this->belongsTo(Barrio::class);
+    }
 }
