@@ -26,7 +26,8 @@
     height: auto;
     min-height: 100vh;
     background-image: url('../assets/landing/desktop-login-registro.jpg');
-    background-size: cover;
+    background-color: #010101;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -164,6 +165,7 @@
 @media (max-width: 768px) {
     .main-register-container {
         background-image: url('../assets/landing/home-bg.jpg');
+        background-size: cover;
         background-position: center;
         justify-content: center;
         align-items: center;

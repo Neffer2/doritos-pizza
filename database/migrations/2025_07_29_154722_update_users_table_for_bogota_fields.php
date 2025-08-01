@@ -22,6 +22,7 @@ return new class extends Migration
             $table->foreignId('barrio_id')->nullable()->constrained('barrios')->onDelete('set null');
             $table->string('direccion')->nullable();
             $table->date('fecha_nacimiento')->nullable();
+            $table->boolean('habeas_data')->default(0);
         });
     }
 
@@ -39,7 +40,8 @@ return new class extends Migration
                 'localidad_id',
                 'barrio_id',
                 'direccion',
-                'fecha_nacimiento'
+                'fecha_nacimiento',
+                'habeas_data'
             ]);
             
             $table->string('ciudad')->nullable();

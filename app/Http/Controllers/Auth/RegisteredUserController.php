@@ -39,6 +39,7 @@ class RegisteredUserController extends Controller
             'direccion' => ['required', 'string', 'max:255'],
             'fecha' => ['required', 'date', 'before_or_equal:2007-01-01'],
             'terminos' => ['required', 'accepted'],
+            'habeas_data' => ['required', 'accepted'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ];
@@ -62,6 +63,7 @@ class RegisteredUserController extends Controller
             'puntos' => 0,
             'estado_id' => 1,
             'terminos' => $request->has('terminos') ? 1 : 0,
+            'habeas_data' => $request->has('habeas_data') ? 1 : 0,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ];

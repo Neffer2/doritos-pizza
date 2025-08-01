@@ -84,9 +84,17 @@
 
                 <div class="tyc-container">
                     <input type="checkbox" name="terminos" id="terminos" required>
-                    <label for="terminos">Aceptar Términos y Condiciones</label>
+                    <label for="terminos">Acepto los Términos y Condiciones</label>
                     @error('terminos')
-                        <div>{{ $message }}</div>
+                        <div class="register-form-error">{{ $message }}</div>
+                    @enderror
+                </div>
+
+                <div class="tyc-container">
+                    <input type="checkbox" name="habeas_data" id="habeas_data" required>
+                    <label for="habeas_data">Autorizo el tratamiento de datos personales</label>
+                    @error('habeas_data')
+                        <div class="register-form-error">{{ $message }}</div>
                     @enderror
                 </div>
 

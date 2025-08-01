@@ -30,6 +30,7 @@ class User extends Authenticatable
         'email',
         'password',
         'terminos',
+        'habeas_data',
         'estado_id',
         'puntos',
     ];
