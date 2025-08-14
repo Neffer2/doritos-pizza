@@ -110,6 +110,7 @@
 .tyc-container {
     display: flex;
     justify-content: flex-start;
+    text-decoration: none;
     align-items: center;
     width: 70%;
     margin-bottom: 20px;
@@ -124,6 +125,10 @@
     font-weight: 800;
     font-style: italic;
     color: #fff;
+}
+
+.tyc-label {
+    cursor: pointer;
 }
 
 

@@ -82,13 +82,13 @@
                     @enderror
                 </div>
 
-                <div class="tyc-container">
+                <a class="tyc-container" href="{{ asset('assets/legal/Actividad_LA_PIZZERIA_DE_DORITOS.pdf') }}" target="_blank">
                     <input type="checkbox" name="terminos" id="terminos" required>
-                    <label for="terminos">Acepto los Términos y Condiciones</label>
+                    <label class="tyc-label">Acepto los Términos y Condiciones</label>
                     @error('terminos')
                         <div class="register-form-error">{{ $message }}</div>
                     @enderror
-                </div>
+                </a>
 
                 <div class="tyc-container">
                     <input type="checkbox" name="habeas_data" id="habeas_data" required>
