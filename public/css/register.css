@@ -125,15 +125,9 @@
     font-weight: 800;
     font-style: italic;
     color: #fff;
-    cursor: pointer;
-    text-decoration: none;
+    cursor: pointer !important;
+    text-decoration: none !important;
 }
-
-.tyc-label {
-    cursor: pointer;
-}
-
-
 
 .registered-container {
     display: flex;
