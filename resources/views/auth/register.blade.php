@@ -92,7 +92,7 @@
 
                 <a class="tyc-container" href="{{ asset('assets/legal/Aviso_de_privacidad_LA_PIZZERIA_DE_DORITOS.pdf') }}" target="_blank">
                     <input type="checkbox" name="habeas_data" id="habeas_data" required>
-                    <label for="habeas_data">Autorizo el tratamiento de datos personales</label>
+                    <label>Autorizo el tratamiento de datos personales</label>
                     @error('habeas_data')
                         <div class="register-form-error">{{ $message }}</div>
                     @enderror
