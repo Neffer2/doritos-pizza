@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ asset('css/premios.css') }}?v={{ time() }}">
     <link rel="stylesheet" href="{{ asset('css/ranking.css') }}?v={{ time() }}">
     <link rel="stylesheet" href="{{ asset('css/whatsapp.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/faq.css') }}?v={{ time() }}">
     <link rel="shortcut icon" href="{{ asset('assets/landing/favicon-96x96.png') }}" type="image/x-icon">
     <title>Doritos Pizza</title>
     @livewireStyles
@@ -21,6 +22,7 @@
     @yield('content')
     @livewireScripts
     @livewire('whatsapp-button')
+    @livewire('faq-button')
 </body>
 
 </html>

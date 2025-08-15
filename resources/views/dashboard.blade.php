@@ -6,7 +6,7 @@
 
         </div>
         <div class="home-info-container">
-            <p>Podrás acumular puntos desde el <span>xx de xxxxxxx de 2025 </span>hasta el <span>xx de xxxxxx del
+            <p>Podrás acumular puntos desde el <span>18 de agosto de 2025 </span>hasta el <span>2 de noviembre del
                     2025</span></p>
         </div>
         <div class="puntaje-mobile">

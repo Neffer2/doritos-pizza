@@ -17,7 +17,7 @@
             <img src="{{ asset('assets/landing/jugar-btn.png') }}" alt="" srcset="">
         </button>
         <div class="logo-mobile">
-            <img src="{{ asset('assets/landing/logo-codigos-mobile.png') }}" alt="">
+            <img src="{{ asset('assets/landing/logo-codigos-mobile-1.png') }}" alt="">
         </div>
     </div>
 </div>

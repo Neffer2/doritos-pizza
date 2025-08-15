@@ -90,13 +90,13 @@
                     @enderror
                 </a>
 
-                <div class="tyc-container">
+                <a class="tyc-container" href="{{ asset('assets/legal/Aviso_de_privacidad_LA_PIZZERIA_DE_DORITOS.pdf') }}" target="_blank">
                     <input type="checkbox" name="habeas_data" id="habeas_data" required>
                     <label for="habeas_data">Autorizo el tratamiento de datos personales</label>
                     @error('habeas_data')
                         <div class="register-form-error">{{ $message }}</div>
                     @enderror
-                </div>
+                </a>
 
                 <div class="registered-container">
                     <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">

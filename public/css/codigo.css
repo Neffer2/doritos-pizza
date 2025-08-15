@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: row;
     height: 100vh;
-    background-image: url('../assets/landing/codigo-bg.jpg');
+    background-image: url('../assets/landing/codigo-back.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@
     }
 
     .logo-mobile img {
-        width: 55%;
+        width: 60%;
     }
     .btn-codigo img {
         width: 70%;
