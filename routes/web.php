@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\FaqController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,7 @@ Route::get('/puntaje', function () {
 })->middleware('ruleta')->name('puntaje');
 Route::get('/ranking', [HomeController::class, 'ranking'])->middleware('ruleta')->name('ranking');
 Route::get('/registrar_codigo', [HomeController::class, 'registrarCodigo'])->middleware('ruleta')->name('registrar_codigo');
+Route::get('/faq', [FaqController::class, 'index'])->middleware('ruleta')->name('faq');
 Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->middleware('ruleta')->name('dashboard');

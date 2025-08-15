@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<!DOCTY    <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/puntaje.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/codigo.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/premios.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/ranking.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/whatsapp.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/faq.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('css/faq-view.css') }}?v={{ time() }}">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>

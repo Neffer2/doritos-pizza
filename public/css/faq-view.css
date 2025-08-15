@@ -1,0 +1,246 @@
+/* FAQ View Styles */
+.main-faq-view-container {
+    min-height: 100vh;
+    background-image: url('../assets/landing/puntaje-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.faq-content-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-title-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faq-title-container h1 {
+    font-family: 'DoritosHeadline Bk';
+    font-size: 3rem;
+    color: #ea4a13;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+.faq-questions-wrapper {
+    max-width: 900px;
+    margin: 0 auto 50px;
+}
+
+.faq-item {
+    background: rgba(67, 67, 67, 0.9);
+    border: 2px solid #ff8d00;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: #ea4a13;
+    box-shadow: 0 5px 15px rgba(234, 74, 19, 0.3);
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    cursor: pointer;
+    background: rgba(255, 141, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+    background: rgba(255, 141, 0, 0.2);
+}
+
+.faq-question h3 {
+    font-family: 'MyriadPro Regular';
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ff8d00;
+    text-transform: uppercase;
+    margin: 0;
+    flex: 1;
+}
+
+.faq-toggle {
+    font-size: 2rem;
+    color: #ea4a13;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+}
+
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: rgba(67, 67, 67, 0.8);
+}
+
+.faq-item.active .faq-answer {
+    padding: 25px 30px;
+    max-height: 500px;
+}
+
+.faq-answer p {
+    font-family: 'MyriadPro Regular';
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #fff;
+    margin: 0;
+}
+
+.faq-contact-section {
+    background: rgba(67, 67, 67, 0.9);
+    border: 2px solid #00cb9b;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-family: 'DoritosHeadline Bk';
+    font-size: 2rem;
+    color: #00cb9b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: 'MyriadPro Regular';
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 203, 155, 0.1);
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #00cb9b;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-item span {
+    font-family: 'MyriadPro Regular';
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.faq-terms-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.terms-link {
+    display: inline-block;
+    font-family: 'MyriadPro Regular';
+    font-size: 1.1rem;
+    color: #00cb9b;
+    text-decoration: underline;
+    padding: 15px 30px;
+    border: 2px solid #00cb9b;
+    border-radius: 8px;
+    background: rgba(0, 203, 155, 0.1);
+    transition: all 0.3s ease;
+}
+
+.terms-link:hover {
+    background: rgba(0, 203, 155, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 203, 155, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    
+    .faq-title-container h1 {
+        font-size: 2.5rem;
+    }
+    
+    .faq-content-section {
+        padding: 15px;
+    }
+    
+    .faq-question {
+        padding: 20px;
+    }
+    
+    .faq-question h3 {
+        font-size: 1.1rem;
+    }
+    
+    .faq-answer {
+        padding: 0 20px;
+    }
+    
+    .faq-item.active .faq-answer {
+        padding: 20px;
+    }
+    
+    .faq-contact-section {
+        padding: 25px 20px;
+        margin: 30px 15px;
+    }
+    
+    .contact-info h3 {
+        font-size: 1.5rem;
+    }
+    
+    .contact-item {
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq-title-container h1 {
+        font-size: 2rem;
+    }
+    
+    .faq-question h3 {
+        font-size: 1rem;
+    }
+    
+    .faq-answer p {
+        font-size: 1rem;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+}
