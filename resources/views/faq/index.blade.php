@@ -112,7 +112,7 @@
                     </div>
                     <div class="faq-answer">
                         <p>Puedes consultar tu posición en el ranking en la sección “Ranking” de tu cuenta en <a
-                                href="https://juegayganapep.com/ranking" target="_blank">juegayganapep.com</a>.</p>
+                                href="https://juegayganapep.com/ranking" target="_blank" style="text-decoration: none; color: #fff">juegayganapep.com/ranking</a>.</p>
                     </div>
                 </div>
 
