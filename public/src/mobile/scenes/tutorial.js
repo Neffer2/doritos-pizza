@@ -14,9 +14,9 @@ export class Tutorial extends Phaser.Scene {
         const fxShadow = title.preFX.addShadow(0, 0, 0.006, 2, 0x333333, 10);
         let tutorial = this.add.image(width/2, ((height/2) - 30), 'tutorial');
         let tutorial2 = this.add.image(width/2, (height/2) + 120, 'tutorial2');
-        let tutorial3 = this.add.image(width/2, ((height/2) + 300), 'tutorial3');
-        let volverBtn = this.add.image(45, (title.y/5), 'volver-btn');
-        volverBtn.setInteractive();
+        let tutorial3 = this.add.image(width/2, ((height/2) + 300), 'tutorial3').setScale(.8);
+        // let volverBtn = this.add.image(45, (title.y/5), 'volver-btn');
+        // volverBtn.setInteractive();
         let acpetarBtn = this.add.image(width/2, ((height/2) + 470), 'aceptar-btn');
         acpetarBtn.setInteractive();
 
@@ -45,23 +45,23 @@ export class Tutorial extends Phaser.Scene {
             mContext.scene.start('Game');
         });
 
-        acpetarBtn.on('pointerout', () => {            
-            acpetarBtn.setScale(1); 
+        acpetarBtn.on('pointerout', () => {
+            acpetarBtn.setScale(1);
         });
 
-        volverBtn.on('pointerdown', function(){
-            volverBtn.setScale(1.1);
-        });
+        // volverBtn.on('pointerdown', function(){
+        //     volverBtn.setScale(1.1);
+        // });
 
-        volverBtn.on('pointerup', function(){
-            
-        });
+        // volverBtn.on('pointerup', function(){
 
-        volverBtn.on('pointerout', () => {            
-            volverBtn.setScale(1); 
-        });
+        // });
+
+        // volverBtn.on('pointerout', () => {
+        //     volverBtn.setScale(1);
+        // });
     }
-    
+
     init(){
         width = this.game.config.width;
         height = this.game.config.height;

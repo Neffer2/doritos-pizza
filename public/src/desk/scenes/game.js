@@ -225,8 +225,8 @@ export class Game extends Phaser.Scene {
         clearInterval(elemsInterval);
         mContext.deleteElems();
         let bg = this.add.image(0, 0, 'background_tutorial').setOrigin(0, 0).setDepth(1);
-        let title = this.add.image(width / 4, (height / 2), 'title-score').setScale(1.4).setDepth(1);
-        const fxShadow = title.preFX.addShadow(0, 0, 0.006, 2, 0x333333, 10);
+        // let title = this.add.image(width / 4, (height / 2), 'title-score').setScale(1.4).setDepth(1);
+        // const fxShadow = title.preFX.addShadow(0, 0, 0.006, 2, 0x333333, 10);
 
         let scoreText1 = "GANASTE \n ";
         let scoreText2 = "\n PUNTOS";
@@ -265,4 +265,4 @@ export class Game extends Phaser.Scene {
             elem.disableBody(false, false);
         });
     }
-}   
+}
