@@ -21,92 +21,123 @@
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Para participar en la promoción, debes registrarte en nuestra plataforma con tus datos personales
-                            y luego ingresar los códigos que encuentras en los empaques de Doritos participantes.</p>
+                        <p>Debes comprar el combo “Amarre” que incluye dos productos Doritos participantes (ej. Mega Queso +
+                            Pizza, en las presentaciones indicadas en los Términos y Condiciones), raspar el sticker que se
+                            encuentra entre ambos empaques y registrar el código en <a href="https://juegayganapep.com"
+                                target="_blank">juegayganapep.com</a>. Luego debes registrarte con tus datos personales y
+                            aceptar los Términos y Condiciones para acceder al juego “La Pizzería de Doritos”.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 2 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Dónde encuentro los códigos para participar?</h3>
+                        <h3>¿Qué productos participan?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Los códigos se encuentran en el interior de los empaques de Doritos participantes. Busca el
-                            código de 8 dígitos en la parte interior del empaque.</p>
+                        <p>Solo participan las referencias indicadas en los TyC: Doritos Pizza Familiar 175g, Doritos Pizza
+                            Personal 46g, Doritos Pizza Personal 43g, Doritos Mega Queso 200g, Doritos Mega Queso 48g y
+                            Doritos Mega Queso 43g. Cualquier otra presentación o producto no participa.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 3 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cuáles son los premios disponibles?</h3>
+                        <h3>¿Dónde encuentro los códigos?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Puedes ganar increíbles premios como Pizza Makers y Wafleras Mini. Los premios se otorgan según
-                            los puntos acumulados y tu posición en el ranking.</p>
+                        <p>El código se encuentra en un sticker entre los dos empaques del combo “Amarre” participante.
+                            Debes rasparlo para visualizarlo.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 4 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cuándo es el período de participación?</h3>
+                        <h3>¿Cuáles son los premios?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Podrás acumular puntos desde el 18 de agosto de 2025 hasta el 2 de noviembre del 2025.</p>
+                        <p>Se entregarán hasta 3.000 Mini Wafleras Eléctricas marca Home Elements como Premios Parciales y
+                            2.000 Pizza Maker Grill marca Home Elements como Premios Finales, de acuerdo al puntaje
+                            acumulado en el juego y la posición en el ranking.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 5 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cómo funciona el sistema de puntos?</h3>
+                        <h3>¿Cuál es el período de participación?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>El Participante deberá acumular la mayor cantidad de puntos a través del juego interactivo “La
-                            Pizzería de Doritos” para participar por el
-                            Premio Parcial y el Premio Final.</p>
+                        <p>Desde el 18 de agosto de 2025 hasta el 2 de noviembre de 2025, dividido en 10 bloques de
+                            participación para la asignación de Premios Parciales.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 6 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Puedo usar el mismo código más de una vez?</h3>
+                        <h3>¿Cómo funciona el sistema de puntos?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>No, cada código solo puede ser utilizado una sola vez. Una vez que ingreses un código válido,
-                            este quedará registrado y no podrá ser utilizado nuevamente.</p>
+                        <p>Cada código registrado te da derecho a tres partidas del juego “La Pizzería de Doritos”, donde
+                            debes recoger exclusivamente empaques de Doritos para acumular puntos. Los puntos determinan tu
+                            posición en el ranking para los Premios Parciales y el Premio Final.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 7 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cómo puedo ver mi posición en el ranking?</h3>
+                        <h3>¿Puedo usar el mismo código más de una vez?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Puedes ver tu posición actual en el ranking accediendo a la sección "Ranking" desde el menú
-                            principal de tu cuenta.</p>
+                        <p>No. Cada código solo puede ser registrado una vez. Un código ya usado no será válido para volver
+                            a participar.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 8 -->
                 <div class="faq-item">
                     <div class="faq-question">
+                        <h3>¿Cómo puedo ver mi posición en el ranking?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Puedes consultar tu posición en el ranking en la sección “Ranking” de tu cuenta en <a
+                                href="https://juegayganapep.com" target="_blank">juegayganapep.com</a>.</p>
+                    </div>
+                </div>
+
+                <!-- Pregunta 9 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Debo guardar mis facturas?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí. Es obligatorio conservar las facturas físicas de compra para validar tu premio. Si no las
+                            entregas, perderás el derecho a reclamarlo.</p>
+                    </div>
+                </div>
+
+                <!-- Pregunta 10 -->
+                <div class="faq-item">
+                    <div class="faq-question">
                         <h3>¿Qué hago si mi código no funciona?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Si tu código no funciona, verifica que hayas ingresado todos los dígitos correctamente. Si el
-                            problema persiste, contáctanos a través de nuestros canales de atención al cliente.</p>
+                        <p>Verifica que el código esté correctamente digitado. Si el problema persiste, comunícate con el
+                            soporte al cliente mediante WhatsApp +57 321 325 0631 (según horarios indicados en TyC) o al
+                            correo soporte@juegayganapep.com.</p>
                     </div>
                 </div>
             </div>
@@ -115,11 +146,14 @@
             <div class="faq-contact-section">
                 <div class="contact-info">
                     <h3>¿Necesitas más ayuda?</h3>
-                    <p>Si no encontraste la respuesta a tu pregunta, contáctanos:</p>
+                    <p>Si no encontraste la respuesta, contáctanos:</p>
                     <div class="contact-methods">
                         <div class="contact-item">
                             <img src="{{ asset('assets/landing/whatsapp-icon.png') }}" alt="WhatsApp">
-                            <span>WhatsApp: +57 300 123 4567</span>
+                            <span>WhatsApp: +57 321 325 0631</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>Email: soporte@juegayganapep.com</span>
                         </div>
                     </div>
                 </div>
@@ -143,18 +177,10 @@
             faqQuestions.forEach(question => {
                 question.addEventListener('click', function() {
                     const faqItem = this.parentElement;
-                    const answer = faqItem.querySelector('.faq-answer');
                     const toggle = this.querySelector('.faq-toggle');
 
-                    // Toggle active class
                     faqItem.classList.toggle('active');
-
-                    // Change toggle symbol
-                    if (faqItem.classList.contains('active')) {
-                        toggle.textContent = '-';
-                    } else {
-                        toggle.textContent = '+';
-                    }
+                    toggle.textContent = faqItem.classList.contains('active') ? '-' : '+';
                 });
             });
         });
