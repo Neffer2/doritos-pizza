@@ -17,7 +17,7 @@
                 <!-- Pregunta 1 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cómo participo en la promoción de Doritos Pizza?</h3>
+                        <h3>¿Cómo participo en la promoción?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
