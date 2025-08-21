@@ -68,12 +68,12 @@
                                 📋 Información Usuarios
                             </a>
                         </li>
-                        {{-- <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('backoffice.estadisticas') ? 'active' : '' }}" 
                                href="{{ route('backoffice.estadisticas') }}">
                                 📈 Estadísticas
                             </a>
-                        </li> --}}
+                        </li>
                         <li class="nav-item mt-4">
                             <a class="nav-link" href="{{ route('dashboard') }}">
                                 🏠 Volver al sitio
