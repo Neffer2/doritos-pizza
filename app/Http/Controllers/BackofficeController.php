@@ -141,7 +141,7 @@ class BackofficeController extends Controller
 
         return view('backoffice.estadisticas', compact(
             'estadisticasEstado', 
-            'estadisticasDepartamento', 
+            'estadisticasCiudad', 
             'registrosPorMes', 
             'topUsuarios'
         ));
