@@ -53,7 +53,7 @@
                     <table class="table table-sm">
                         <thead>
                             <tr>
-                                <th>Departamento</th>
+                                <th>Ciudad</th>
                                 <th>Usuarios</th>
                             </tr>
                         </thead>
