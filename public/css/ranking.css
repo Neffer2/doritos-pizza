@@ -151,9 +151,9 @@
         flex-direction: column;
         justify-content: flex-start;
         background-image: url(../assets/landing/puntaje-bg-mobile.jpg);
-        background-size: cover;
-        min-height: 100vh;
-        height: 100%;
+        background-size: contain;
+        min-height: auto;
+        height: auto;
     }
 
     .ranking-info {
