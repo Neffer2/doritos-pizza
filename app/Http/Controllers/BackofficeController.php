@@ -172,7 +172,7 @@ class BackofficeController extends Controller
         
         // Obtener códigos registrados por el usuario
         $codigosUsuario = RegistroCodigo::where('user_id', $usuario->id)
-            ->with('codigo')
+            ->with(['codigo.canal', 'codigo.estado'])
             ->orderBy('created_at', 'desc')
             ->get();
 

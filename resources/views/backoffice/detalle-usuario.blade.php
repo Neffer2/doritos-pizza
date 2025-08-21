@@ -94,10 +94,10 @@
                                 @foreach($codigosUsuario as $registro)
                                     <tr>
                                         <td>
-                                            <code>{{ $registro->codigo->codigo ?? 'N/A' }}</code>
+                                            <code>{{ $registro->codigo->description ?? 'N/A' }}</code>
                                         </td>
                                         <td>{{ $registro->created_at->format('d/m/Y H:i:s') }}</td>
-                                        <td>{{ $registro->codigo->canal ?? 'N/A' }}</td>
+                                        <td>{{ $registro->codigo->canal->description ?? 'N/A' }}</td>
                                         <td>
                                             <span class="badge bg-success">Registrado</span>
                                         </td>
