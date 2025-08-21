@@ -47,11 +47,11 @@
                         <table class="table table-borderless">
                             <tr>
                                 <td><strong>Departamento:</strong></td>
-                                <td>{{ $usuario->departamento->nombre ?? 'N/A' }}</td>
+                                <td>{{ $usuario->departamento->descripcion ?? 'N/A' }}</td>
                             </tr>
                             <tr>
                                 <td><strong>Ciudad:</strong></td>
-                                <td>{{ $usuario->ciudad->nombre ?? 'N/A' }}</td>
+                                <td>{{ $usuario->ciudad->descripcion ?? 'N/A' }}</td>
                             </tr>
                             <tr>
                                 <td><strong>Localidad:</strong></td>
