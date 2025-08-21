@@ -58,9 +58,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach($estadisticasDepartamento as $stat)
+                            @foreach($estadisticasCiudad as $stat)
                                 <tr>
-                                    <td>{{ $stat->departamento->nombre ?? 'Sin departamento' }}</td>
+                                    <td>{{ $stat->ciudad->descripcion ?? 'Sin ciudad' }}</td>
                                     <td>
                                         <span class="badge bg-primary">
                                             {{ number_format($stat->total) }}
@@ -192,8 +192,8 @@
                         <small class="text-muted">Puntos Top 10</small>
                     </div>
                     <div class="col-md-3">
-                        <div class="h4 text-info">{{ $estadisticasDepartamento->count() }}</div>
-                        <small class="text-muted">Departamentos Activos</small>
+                        <div class="h4 text-info">{{ $estadisticasCiudad->count() }}</div>
+                        <small class="text-muted">Ciudades Activas</small>
                     </div>
                     <div class="col-md-3">
                         <div class="h4 text-warning">{{ $registrosPorMes->first()->total ?? 0 }}</div>

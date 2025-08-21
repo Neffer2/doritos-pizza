@@ -104,11 +104,11 @@
                             📋 Ver Información
                         </a>
                     </div>
-                    {{-- <div class="col-md-3 mb-3">
+                    <div class="col-md-3 mb-3">
                         <a href="{{ route('backoffice.estadisticas') }}" class="btn btn-warning btn-block">
                             📈 Estadísticas
                         </a>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
         </div>

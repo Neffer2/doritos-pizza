@@ -112,11 +112,11 @@ class BackofficeController extends Controller
             ->groupBy('estado_id')
             ->get();
 
-        // Estadísticas por departamento
-        $estadisticasDepartamento = User::select('departamento_id')
+        // Estadísticas por ciudad
+        $estadisticasCiudad = User::select('ciudad_id')
             ->selectRaw('COUNT(*) as total')
-            ->with('departamento')
-            ->groupBy('departamento_id')
+            ->with('ciudad')
+            ->groupBy('ciudad_id')
             ->orderBy('total', 'desc')
             ->limit(10)
             ->get();
