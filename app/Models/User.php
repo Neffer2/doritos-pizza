@@ -76,4 +76,9 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Barrio::class);
     }
+
+    public function estado()
+    {
+        return $this->belongsTo(Estado::class, 'estado_id');
+    }
 }

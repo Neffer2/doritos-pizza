@@ -54,6 +54,8 @@ class Kernel extends HttpKernel
      */
     protected $middlewareAliases = [
         'auth' => \App\Http\Middleware\Authenticate::class,
+        'backoffice' => \App\Http\Middleware\BackofficeMiddleware::class,
+        'redirect.user.type' => \App\Http\Middleware\RedirectByUserType::class,
         'ruleta' => \App\Http\Middleware\Ruleta::class,
         'participante' => \App\Http\Middleware\Participante::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
