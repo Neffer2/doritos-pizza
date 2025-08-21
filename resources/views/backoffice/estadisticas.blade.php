@@ -42,11 +42,11 @@
         </div>
     </div>
 
-    <!-- Top Departamentos -->
+    <!-- Top Ciudades -->
     <div class="col-md-6 mb-4">
         <div class="card shadow">
             <div class="card-header">
-                <h6 class="m-0 font-weight-bold text-primary">Top 10 Departamentos</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Top 10 Ciudades</h6>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
