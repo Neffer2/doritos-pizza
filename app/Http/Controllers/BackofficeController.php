@@ -15,11 +15,12 @@ class BackofficeController extends Controller
      */
     public function codigosPorCanal()
     {
-        // Obtener cantidad de códigos registrados por canal
-        $canales = \App\Models\Canal::select('canales.*')
+
+        // Solución: agrupar por todos los campos de canales para evitar el error SQL
+        $canales = \App\Models\Canal::select('canales.id', 'canales.description', 'canales.created_at', 'canales.updated_at')
             ->leftJoin('codigos', 'canales.id', '=', 'codigos.canal_id')
             ->leftJoin('registro_codigos', 'codigos.id', '=', 'registro_codigos.codigo_id')
-            ->groupBy('canales.id')
+            ->groupBy('canales.id', 'canales.description', 'canales.created_at', 'canales.updated_at')
             ->selectRaw('COUNT(registro_codigos.id) as registros_count')
             ->get();
 
