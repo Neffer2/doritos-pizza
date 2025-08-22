@@ -69,6 +69,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('backoffice.codigos-por-canal') ? 'active' : '' }}"
+                               href="{{ route('backoffice.codigos-por-canal') }}">
+                                🗂️ Códigos por Canal
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('backoffice.informacion-usuarios') ? 'active' : '' }}"
                                 href="{{ route('backoffice.informacion-usuarios') }}">
                                 📋 Información Usuarios

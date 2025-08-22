@@ -11,6 +11,27 @@ use Illuminate\Support\Facades\DB;
 class BackofficeController extends Controller
 {
     /**
+     * Estadística de cantidad de códigos por canal
+     */
+    public function codigosPorCanal()
+    {
+        // Obtener cantidad de códigos registrados por canal
+        $canales = \App\Models\Canal::select('canales.*')
+            ->leftJoin('codigos', 'canales.id', '=', 'codigos.canal_id')
+            ->leftJoin('registro_codigos', 'codigos.id', '=', 'registro_codigos.codigo_id')
+            ->groupBy('canales.id')
+            ->selectRaw('COUNT(registro_codigos.id) as registros_count')
+            ->get();
+
+        // Para gráfico: nombres y cantidades
+        $labels = $canales->pluck('description')->toArray();
+        $data = $canales->pluck('registros_count')->toArray();
+
+        $totalRegistros = array_sum($data);
+
+        return view('backoffice.codigos-por-canal', compact('canales', 'labels', 'data', 'totalRegistros'));
+    }
+    /**
      * Dashboard principal del backoffice
      */
     public function dashboard()

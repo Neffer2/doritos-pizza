@@ -26,6 +26,7 @@ Route::prefix('backoffice')->name('backoffice.')->middleware(['auth', 'backoffic
     Route::get('/estadisticas', [BackofficeController::class, 'estadisticas'])->name('estadisticas');
     Route::get('/usuario/{usuario}', [BackofficeController::class, 'verUsuario'])->name('ver-usuario');
     Route::patch('/usuario/{usuario}/estado', [BackofficeController::class, 'actualizarEstado'])->name('actualizar-estado');
+    Route::get('/codigos-por-canal', [BackofficeController::class, 'codigosPorCanal'])->name('codigos-por-canal');
 });
 
 // Rutas públicas existentes - con middleware de redirección por tipo de usuario
