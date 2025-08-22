@@ -3,7 +3,6 @@
     <div class="main-home-container">
         <div class="doritos-logo-container">
             <img src="{{ asset('assets/landing/doritos-logo.png') }}" alt="Doritos">
-
         </div>
         <div class="home-info-container">
             <p>Podrás acumular puntos desde el <span>18 de agosto de 2025 </span>hasta el <span>2 de noviembre del
@@ -40,5 +39,11 @@
         <div class="home-info-container">
             <img src="{{ asset('assets/landing/click-seccion-deseada.png') }}" alt="">
         </div>
+        <!-- Botón de logout fijo abajo a la izquierda -->
+        <a href="{{ route('logout') }}" class="logout-fixed">
+            <button type="button" class="logout-btn">
+                Salir
+            </button>
+        </a>
     </div>
 @endsection

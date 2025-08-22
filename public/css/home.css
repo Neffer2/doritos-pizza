@@ -1,3 +1,40 @@
+/* Botón de logout fijo abajo a la izquierda */
+.logout-fixed {
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.logout-btn {
+    background: #ea1d24;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 22px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    gap: 10px;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.logout-btn:hover {
+    background: #c4161c;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    transform: scale(1.05);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .logout-fixed {
+        display: none !important;
+    }
+}
 .main-home-container {
     display: flex;
     justify-content: center;

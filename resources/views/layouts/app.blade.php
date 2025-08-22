@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="{{ asset('css/whatsapp.css') }}?v={{ time() }}">
     <link rel="stylesheet" href="{{ asset('css/faq.css') }}?v={{ time() }}">
     <link rel="shortcut icon" href="{{ asset('assets/landing/favicon-96x96.png') }}" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-papm6p6Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Doritos Pizza</title>
     @livewireStyles
 </head>
