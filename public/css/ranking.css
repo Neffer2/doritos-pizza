@@ -217,4 +217,45 @@
 
 }
 
+/* Laptop media query (1024px - 1366px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .ranking-table-display {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .ranking-table {
+        min-width: 900px;
+        width: 100%;
+    }
+    .position-cell {
+        max-width: 180px;
+        min-width: 120px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .points-cell, .prize-cell {
+        max-width: 100px;
+        min-width: 80px;
+        font-size: 1.1rem;
+    }
+    .position-cell-number {
+        font-size: 1.5rem;
+    }
+    .position-cell-name {
+        width: 30px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Ajuste general para que no se desborde en desktop */
+.position-cell {
+    max-width: 250px;
+    min-width: 180px;
+    padding: 0 10px;
+}
+.points-cell, .prize-cell {
+    max-width: 120px;
+    min-width: 100px;
+}
+
 
