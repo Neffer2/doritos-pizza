@@ -53,11 +53,6 @@
     align-items: center;
     flex-direction: column;
     width: 90%;
-    /* Mejoras visuales para ranking en laptop y desktop */
-    background: rgba(0,0,0,0.05);
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    padding: 10px 0;
 }
 
 .ranking-table {
@@ -66,8 +61,6 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
-    min-width: 700px;
-    border-spacing: 0;
 }
 
 .points-cell, .prize-cell {
@@ -80,11 +73,6 @@
     text-align: center;
     background-color: #fff;
     color: #000;
-    /* border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    border: 1px solid #eaeaea;
-    margin: 0 2px;
-    transition: box-shadow 0.2s; */
 }
 
 .position-cell img{
@@ -106,10 +94,6 @@
     text-align: center;
     background-color: #fff;
     color: #000;
-    /* background: #fff;
-    color: #222;
-    font-weight: 500;
-    padding: 0 8px; */
 }
 
 .position-cell-number {
@@ -117,10 +101,6 @@
     color: #ea1d24;
     font-size: 2.7rem;
     width: 20px;
-    /* color: #ea1d24;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-right: 8px; */
 }
 
 .position-cell-name {
@@ -133,11 +113,6 @@
     text-transform: uppercase;
     font-size: 1rem;
     padding: 2px;
-    /* font-size: 1rem;
-    color: #222;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-left: 6px; */
 }
 
 .points-cell {
@@ -146,12 +121,6 @@
     color: #fff;
     font-size: 2rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 1px 0 #000;
-    /* background: linear-gradient(90deg, #00d2b4 80%, #fff 100%);
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-shadow: 0 1px 2px #000;
-    border: 1px solid #00d2b4; */
 }
 
 .user-position {
@@ -246,74 +215,6 @@
         margin-bottom: 10px;
     }
 
-}
-
-/* Laptop media query (1024px - 1366px) */
-@media (min-width: 1024px) and (max-width: 1366px) {
-    .ranking-table-display {
-        width: 100%;
-        overflow-x: auto;
-    }
-    .ranking-table {
-        min-width: 900px;
-        width: 100%;
-    }
-    .position-cell {
-        max-width: 180px;
-        min-width: 120px;
-        padding: 5px;
-        font-size: 1rem;
-    }
-    .points-cell, .prize-cell {
-        max-width: 100px;
-        min-width: 80px;
-        font-size: 1.1rem;
-    }
-    .position-cell-number {
-        font-size: 1.5rem;
-    }
-    .position-cell-name {
-        width: 30px;
-        font-size: 0.9rem;
-    }
-}
-
-/* Ajuste general para que no se desborde en desktop */
-.position-cell {
-    max-width: 250px;
-    min-width: 180px;
-    padding: 0 10px;
-}
-.points-cell, .prize-cell {
-    max-width: 120px;
-    min-width: 100px;
-}
-
-/* Íconos más compactos */
-.position-cell img, .prize-cell img {
-    width: 24px !important;
-    height: 24px !important;
-    object-fit: contain;
-    margin: 0 2px;
-}
-
-/* Scrollbar visible para ranking-table-display */
-.ranking-table-display::-webkit-scrollbar {
-    height: 8px;
-    background: #eaeaea;
-    border-radius: 8px;
-}
-.ranking-table-display::-webkit-scrollbar-thumb {
-    background: #00d2b4;
-    border-radius: 8px;
-}
-
-.ranking-table tr {
-    margin-bottom: 4px;
-}
-.ranking-table tr:hover .position-cell, .ranking-table tr:hover .points-cell, .ranking-table tr:hover .prize-cell {
-    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
-    border-color: #00d2b4;
 }
 
 
