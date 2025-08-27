@@ -92,13 +92,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <form method="POST" action="{{ route('logout') }}" class="d-inline">
-                                @csrf
-                                <button type="submit" class="nav-link btn btn-link text-start w-100 text-white"
-                                    style="text-decoration: none; border: none; background: none;">
-                                    🚪 Cerrar sesión
-                                </button>
-                            </form>
+                            <a href="/logout" class="nav-link text-start w-100 text-white" style="text-decoration: none;">
+                                🚪 Cerrar sesión
+                            </a>
                         </li>
                     </ul>
                 </div>
