@@ -21,7 +21,7 @@
     transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
-.logout-btn:hover {
+.c-btn:hover {
     background: #c4161c;
     box-shadow: 0 4px 16px rgba(0,0,0,0.18);
     transform: scale(1.05);
