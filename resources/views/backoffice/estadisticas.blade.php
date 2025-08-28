@@ -81,7 +81,7 @@
     <div class="col-md-8 mb-4">
         <div class="card shadow">
             <div class="card-header">
-                <h6 class="m-0 font-weight-bold text-primary">Registros por Mes (Últimos 12 meses)</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Registros por Mes</h6>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
