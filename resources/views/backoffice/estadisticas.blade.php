@@ -188,10 +188,6 @@
                         <small class="text-muted">Total Usuarios</small>
                     </div>
                     <div class="col-md-3">
-                        <div class="h4 text-success">{{ number_format($topUsuarios->sum('puntos')) }}</div>
-                        <small class="text-muted">Puntos Top 10</small>
-                    </div>
-                    <div class="col-md-3">
                         <div class="h4 text-info">{{ $estadisticasCiudad->count() }}</div>
                         <small class="text-muted">Ciudades Activas</small>
                     </div>
