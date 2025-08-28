@@ -200,4 +200,83 @@ class BackofficeController extends Controller
 
         return view('backoffice.detalle-usuario', compact('usuario', 'codigosUsuario'));
     }
+
+    public function ganadoresPorBloque(Request $request)
+    {
+        // Definición de bloques (puedes mover esto a config si lo prefieres)
+        $bloques = [
+            [
+                'nombre' => 'Bloque 1',
+                'inicio' => '2025-08-18 00:00:00',
+                'fin' => '2025-08-31 23:59:59',
+                'ganadores' => 200
+            ],
+            [
+                'nombre' => 'Bloque 2',
+                'inicio' => '2025-09-01 00:00:00',
+                'fin' => '2025-09-07 23:59:59',
+                'ganadores' => 100
+            ],
+            [
+                'nombre' => 'Bloque 3',
+                'inicio' => '2025-09-08 00:00:00',
+                'fin' => '2025-09-14 23:59:59',
+                'ganadores' => 200
+            ],
+            [
+                'nombre' => 'Bloque 4',
+                'inicio' => '2025-09-15 00:00:00',
+                'fin' => '2025-09-21 23:59:59',
+                'ganadores' => 200
+            ],
+            [
+                'nombre' => 'Bloque 5',
+                'inicio' => '2025-09-22 00:00:00',
+                'fin' => '2025-09-28 23:59:59',
+                'ganadores' => 300
+            ],
+            [
+                'nombre' => 'Bloque 6',
+                'inicio' => '2025-09-29 00:00:00',
+                'fin' => '2025-10-05 23:59:59',
+                'ganadores' => 350
+            ],
+            [
+                'nombre' => 'Bloque 7',
+                'inicio' => '2025-10-06 00:00:00',
+                'fin' => '2025-10-12 23:59:59',
+                'ganadores' => 400
+            ],
+            [
+                'nombre' => 'Bloque 8',
+                'inicio' => '2025-10-13 00:00:00',
+                'fin' => '2025-10-19 23:59:59',
+                'ganadores' => 400
+            ],
+            [
+                'nombre' => 'Bloque 9',
+                'inicio' => '2025-10-20 00:00:00',
+                'fin' => '2025-10-26 23:59:59',
+                'ganadores' => 400
+            ],
+            [
+                'nombre' => 'Bloque 10',
+                'inicio' => '2025-10-27 00:00:00',
+                'fin' => '2025-11-02 23:59:59',
+                'ganadores' => 450
+            ],
+        ];
+
+        $bloqueSeleccionado = $request->get('bloque', 0);
+        $bloque = $bloques[$bloqueSeleccionado] ?? $bloques[0];
+
+        // Ranking de usuarios por bloque (por fecha de registro)
+        $ganadores = User::whereBetween('created_at', [$bloque['inicio'], $bloque['fin']])
+            ->orderBy('puntos', 'desc')
+            ->orderBy('created_at', 'asc')
+            ->limit($bloque['ganadores'])
+            ->get();
+
+        return view('backoffice.ganadores-bloque', compact('bloques', 'bloqueSeleccionado', 'bloque', 'ganadores'));
+    }
 }

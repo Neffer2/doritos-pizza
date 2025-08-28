@@ -86,6 +86,12 @@
                                 📈 Estadísticas
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('backoffice.ganadores-bloque') ? 'active' : '' }}"
+                                href="{{ route('backoffice.ganadores-bloque') }}">
+                                🏅 Ganadores por Bloque
+                            </a>
+                        </li>
                         <li class="nav-item mt-4">
                             <a class="nav-link" href="{{ route('dashboard') }}">
                                 🏠 Volver al sitio
