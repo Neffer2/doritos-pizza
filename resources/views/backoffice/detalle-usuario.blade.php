@@ -133,7 +133,7 @@
                     <small class="text-muted">Puntos acumulados</small>
                 </div>
                 
-                <!-- Cambiar Estado -->
+                {{-- <!-- Cambiar Estado -->
                 <form method="POST" action="{{ route('backoffice.actualizar-estado', $usuario) }}" class="mt-3">
                     @csrf
                     @method('PATCH')
@@ -149,7 +149,7 @@
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary btn-sm">Actualizar Estado</button>
-                </form>
+                </form> --}}
             </div>
         </div>
 
