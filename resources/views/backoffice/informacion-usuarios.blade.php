@@ -73,8 +73,8 @@
                             <td>{{ $usuario->document }}</td>
                             <td>{{ $usuario->celular }}</td>
                             <td>{{ $usuario->fecha_nacimiento ? $usuario->fecha_nacimiento->format('d/m/Y') : 'N/A' }}</td>
-                            <td>{{ $usuario->departamento->nombre ?? 'N/A' }}</td>
-                            <td>{{ $usuario->ciudad->nombre ?? 'N/A' }}</td>
+                            <td>{{ $usuario->departamento->descripcion ?? 'N/A' }}</td>
+                            <td>{{ $usuario->ciudad->descripcion ?? 'N/A' }}</td>
                             <td>{{ $usuario->localidad->nombre ?? 'N/A' }}</td>
                             <td>{{ $usuario->barrio->nombre ?? 'N/A' }}</td>
                             <td>{{ Str::limit($usuario->direccion, 30) ?? 'N/A' }}</td>
