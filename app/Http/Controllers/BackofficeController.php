@@ -272,6 +272,7 @@ class BackofficeController extends Controller
 
         // Ranking de usuarios por bloque (por fecha de registro)
         $ganadores = User::whereBetween('created_at', [$bloque['inicio'], $bloque['fin']])
+            ->where('puntos', '>', 0)
             ->orderBy('puntos', 'desc')
             ->orderBy('created_at', 'asc')
             ->limit($bloque['ganadores'])
