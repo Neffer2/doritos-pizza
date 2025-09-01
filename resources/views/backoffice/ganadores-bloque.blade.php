@@ -44,7 +44,6 @@
                         <td>{{ $user->localidad->description ?? 'N/A' }}</td>
                         <td>{{ $user->barrio->description ?? 'N/A' }}</td>
                         <td>{{ $user->direccion }}</td>
-                        <td>{{ $user->puntos }}</td>
                         <td>{{ $user->created_at->format('d/m/Y H:i') }}</td>
                     </tr>
                 @empty
