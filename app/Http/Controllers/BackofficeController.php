@@ -291,6 +291,13 @@ class BackofficeController extends Controller
             ->limit($bloque['ganadores'])
             ->get();
 
+        // Mapear la fecha de primer registro de código a cada usuario
+        $primerosCodigosMap = $primerosCodigos->keyBy('user_id');
+        $ganadores->transform(function($user) use ($primerosCodigosMap) {
+            $user->primera_participacion = $primerosCodigosMap[$user->id]->primera_participacion ?? null;
+            return $user;
+        });
+
         return view('backoffice.ganadores-bloque', compact('bloques', 'bloqueSeleccionado', 'bloque', 'ganadores'));
     }
 }
