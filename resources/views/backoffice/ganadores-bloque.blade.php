@@ -40,10 +40,11 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->celular }}</td>
                         <td>{{ $user->email }}</td>
-                        <td>{{ $user->ciudad->description ?? 'N/A' }}</td>
-                        <td>{{ $user->localidad->description ?? 'N/A' }}</td>
-                        <td>{{ $user->barrio->description ?? 'N/A' }}</td>
+                        <td>{{ $user->ciudad->descripcion ?? 'N/A' }}</td>
+                        <td>{{ $user->localidad->nombre ?? 'N/A' }}</td>
+                        <td>{{ $user->barrio->nombre ?? 'N/A' }}</td>
                         <td>{{ $user->direccion }}</td>
+                        <td>{{ $user->puntos }}</td>
                         <td>{{ $user->created_at->format('d/m/Y H:i') }}</td>
                     </tr>
                 @empty
