@@ -30,7 +30,7 @@
                     <th>Barrio</th>
                     <th>Dirección</th>
                     <th>Puntos</th>
-                    <th>Fecha Registro</th>
+                    <th>Fecha Registro 1er Código</th>
                 </tr>
             </thead>
             <tbody>
@@ -45,7 +45,7 @@
                         <td>{{ $user->barrio->nombre ?? 'N/A' }}</td>
                         <td>{{ $user->direccion }}</td>
                         <td>{{ $user->puntos }}</td>
-                        <td>{{ $user->created_at->format('d/m/Y H:i') }}</td>
+                        <td>{{ $user->primera_participacion ? \Carbon\Carbon::parse($user->primera_participacion)->format('d/m/Y H:i') : 'N/A' }}</td>
                     </tr>
                 @empty
                     <tr>
