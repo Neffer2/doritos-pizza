@@ -270,12 +270,24 @@ class BackofficeController extends Controller
         $bloqueSeleccionado = $request->get('bloque', 0);
         $bloque = $bloques[$bloqueSeleccionado] ?? $bloques[0];
 
-        // Ranking de usuarios por bloque (por fecha de registro)
+        // Obtener el primer registro de código de cada usuario
+        $primerosCodigos = RegistroCodigo::select('user_id', DB::raw('MIN(created_at) as primera_participacion'))
+            ->groupBy('user_id')
+            ->get();
+
+        // Filtrar usuarios cuyo primer código está dentro del rango del bloque
+        $usuariosCandidatos = $primerosCodigos->filter(function($registro) use ($bloque) {
+            return $registro->primera_participacion >= $bloque['inicio'] && $registro->primera_participacion <= $bloque['fin'];
+        })->pluck('user_id')->toArray();
+
+        // Excluir usuarios que ya ganaron en otros bloques (a futuro, tabla ganadores_bloques)
+        // $yaGanaron = GanadorBloque::pluck('user_id')->toArray();
+        // $usuariosCandidatos = array_diff($usuariosCandidatos, $yaGanaron);
+
         $ganadores = User::with(['ciudad', 'localidad', 'barrio'])
-            ->whereBetween('created_at', [$bloque['inicio'], $bloque['fin']])
+            ->whereIn('id', $usuariosCandidatos)
             ->where('puntos', '>', 0)
             ->orderBy('puntos', 'desc')
-            ->orderBy('created_at', 'asc')
             ->limit($bloque['ganadores'])
             ->get();
 
