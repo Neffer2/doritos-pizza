@@ -26,6 +26,8 @@
                     <th>Celular</th>
                     <th>Email</th>
                     <th>Ciudad</th>
+                    <th>Localidad</th>
+                    <th>Barrio</th>
                     <th>Dirección</th>
                     <th>Puntos</th>
                     <th>Fecha Registro</th>
@@ -39,13 +41,15 @@
                         <td>{{ $user->celular }}</td>
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->ciudad->description ?? 'N/A' }}</td>
+                        <td>{{ $user->localidad->description ?? 'N/A' }}</td>
+                        <td>{{ $user->barrio->description ?? 'N/A' }}</td>
                         <td>{{ $user->direccion }}</td>
                         <td>{{ $user->puntos }}</td>
                         <td>{{ $user->created_at->format('d/m/Y H:i') }}</td>
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="8" class="text-center">No hay ganadores para este bloque.</td>
+                        <td colspan="10" class="text-center">No hay ganadores para este bloque.</td>
                     </tr>
                 @endforelse
             </tbody>
