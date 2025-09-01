@@ -38,7 +38,7 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->celular }}</td>
                         <td>{{ $user->email }}</td>
-                        <td>{{ $user->ciudad ? $user->ciudad->description : '-' }}</td>
+                        <td>{{ $user->ciudad->description : '-' }}</td>
                         <td>{{ $user->direccion }}</td>
                         <td>{{ $user->puntos }}</td>
                         <td>{{ $user->created_at->format('d/m/Y H:i') }}</td>
