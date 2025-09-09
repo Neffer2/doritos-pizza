@@ -17,114 +17,113 @@
                 <!-- Pregunta 1 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cómo participo en la promoción?</h3>
+                        <h3>¿Quién organiza la promoción?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Debes comprar el combo “Amarre” que incluye dos productos Doritos participantes (ej. Mega Queso +
-                            Pizza, en las presentaciones indicadas en los Términos y Condiciones), raspar el sticker que se
-                            encuentra entre ambos empaques y registrar el código en <a href="https://juegayganapep.com"
-                                target="_blank">juegayganapep.com</a>. Luego debes registrarte con tus datos personales y
-                            aceptar los Términos y Condiciones para acceder al juego “La Pizzería de Doritos”.</p>
+                        <p>La actividad “La Pizzería de Doritos” es organizada por PEPSICO ALIMENTOS COLOMBIA LTDA.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 2 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Qué productos participan?</h3>
+                        <h3>¿Cuál es la vigencia de la promoción?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Solo participan las referencias indicadas en los TyC: Doritos Pizza Familiar 175g, Doritos Pizza
-                            Personal 46g, Doritos Pizza Personal 43g, Doritos Mega Queso 200g, Doritos Mega Queso 48g y
-                            Doritos Mega Queso 43g. Cualquier otra presentación o producto no participa.</p>
+                        <p>La promoción estará vigente del <b>18 de agosto de 2025</b> al <b>2 de noviembre de 2025</b>, dividida en 10 bloques de participación.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 3 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Dónde encuentro los códigos?</h3>
+                        <h3>¿Qué productos participan?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>El código se encuentra en un sticker entre los dos empaques del combo “Amarre” participante.
-                            Debes rasparlo para visualizarlo.</p>
+                        <p>Participan únicamente las siguientes referencias de Doritos:</p>
+                        <ul>
+                            <li><bCanal Grandes Superficies (Éxito, Carulla, Olímpica, Cencosud):</b> Doritos Pizza Familiar 175g, Doritos Pizza Personal 46g, Doritos Pizza Personal 43g.</li>
+                            <li><bOtros canales (tiendas, minimercados, conveniencia):</b> Los anteriores más Doritos Mega Queso 200g, 48g y 43g. En este canal los productos vienen en combo Doritos Pizza + Doritos Mega Queso.</li>
+                        </ul>
+                        <p>Cualquier otra presentación no participa.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 4 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cuáles son los premios?</h3>
+                        <h3>¿Cómo participo en la promoción?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Se entregarán hasta 3.000 Mini Wafleras Eléctricas marca Home Elements como Premios Parciales y
-                            2.000 Pizza Maker Grill marca Home Elements como Premios Finales, de acuerdo al puntaje
-                            acumulado en el juego y la posición en el ranking.</p>
+                        <p>Debes comprar los productos participantes, raspar el sticker adherido al empaque y registrar el código en <a href="https://juegayganapep.com" target="_blank">juegayganapep.com</a>. Luego debes registrarte con tus datos personales, aceptar los Términos y Condiciones y acceder al juego “La Pizzería de Doritos”.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 5 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cuál es el período de participación?</h3>
+                        <h3>¿Cómo funciona el juego y el sistema de puntos?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Desde el 18 de agosto de 2025 hasta el 2 de noviembre de 2025, dividido en 10 bloques de
-                            participación para la asignación de Premios Parciales.</p>
+                        <p>Cada código registrado te da derecho a <b>3 partidas</b> en el juego “La Pizzería de Doritos”, donde debes recoger exclusivamente empaques de Doritos para acumular puntos. Los puntos determinan tu posición en el ranking para los Premios Parciales y Finales.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 6 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cómo funciona el sistema de puntos?</h3>
+                        <h3>¿Qué premios puedo ganar?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Cada código registrado te da derecho a tres partidas del juego “La Pizzería de Doritos”, donde
-                            debes recoger exclusivamente empaques de Doritos para acumular puntos. Los puntos determinan tu
-                            posición en el ranking para los Premios Parciales y el Premio Final.</p>
+                        <p>Se entregarán hasta <b>5.000 premios</b>:</p>
+                        <ul>
+                            <li><b>3.000 Premios Parciales:</b> Mini Wafleras Eléctricas Home Elements.</li>
+                            <li><b>2.000 Premios Finales:</b> Pizza Maker Grill Home Elements.</li>
+                        </ul>
+                        <p>Solo puedes ganar <b>un (1) premio parcial</b> durante toda la promoción, pero puedes seguir acumulando puntos para el premio final.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 7 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Puedo usar el mismo código más de una vez?</h3>
+                        <h3>¿Debo guardar mis facturas?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>No. Cada código solo puede ser registrado una vez. Un código ya usado no será válido para volver
-                            a participar.</p>
+                        <p>Sí. Es <b>obligatorio conservar las facturas físicas</b> de compra, ya que se solicitarán para validar la entrega de premios. Sin ellas perderás el derecho a reclamar.</p>
                     </div>
                 </div>
 
                 <!-- Pregunta 8 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Cómo puedo ver mi posición en el ranking?</h3>
+                        <h3>¿Cómo y cuándo me contactan si gano?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Puedes consultar tu posición en el ranking en la sección “Ranking” de tu cuenta en <a
-                                href="https://juegayganapep.com/ranking" target="_blank" style="text-decoration: none; color: #fff">juegayganapep.com/ranking</a>.</p>
+                        <p>Los ganadores serán contactados por correo electrónico dentro de los <b>3 días hábiles</b> siguientes a cada bloque (para Premios Parciales) o a la finalización de la promoción (para Premios Finales). Las entregas se harán en la dirección registrada:</p>
+                        <ul>
+                            <li>Premios Parciales: dentro de las 3 semanas siguientes.</li>
+                            <li>Premios Finales: dentro del mes siguiente.</li>
+                        </ul>
                     </div>
                 </div>
 
                 <!-- Pregunta 9 -->
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>¿Debo guardar mis facturas?</h3>
+                        <h3>¿Dónde puedo ver mi posición en el ranking?</h3>
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Sí. Es obligatorio conservar las facturas físicas de compra para validar tu premio. Si no las
-                            entregas, perderás el derecho a reclamarlo.</p>
+                        <p>Puedes consultar tu posición en el ranking en la sección “Ranking” de tu cuenta en <a href="https://juegayganapep.com/ranking" target="_blank" style="text-decoration: none; color: #fff">juegayganapep.com/ranking</a>.</p>
                     </div>
                 </div>
 
@@ -135,9 +134,7 @@
                         <span class="faq-toggle">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Verifica que el código esté correctamente digitado. Si el problema persiste, comunícate con el
-                            soporte al cliente mediante WhatsApp +57 321 325 0631 (según horarios indicados en TyC) o al
-                            correo soporte@juegayganapep.com.</p>
+                        <p>Si el código no es reconocido, verifica que lo hayas digitado correctamente. Si el problema persiste, comunícate con soporte al WhatsApp <b>+57 321 325 0631</b> (según los horarios indicados en TyC) o al correo <b>soporte@juegayganapep.com</b>.</p>
                     </div>
                 </div>
             </div>
