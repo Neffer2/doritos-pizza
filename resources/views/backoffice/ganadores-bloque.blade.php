@@ -25,6 +25,7 @@
                     <th>Nombre</th>
                     <th>Celular</th>
                     <th>Email</th>
+                    <th>Departamento</th>
                     <th>Ciudad</th>
                     <th>Localidad</th>
                     <th>Barrio</th>
@@ -40,6 +41,7 @@
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->celular }}</td>
                         <td>{{ $user->email }}</td>
+                        <td>{{ $user->departamento->descripcion ?? 'N/A' }}</td>
                         <td>{{ $user->ciudad->descripcion ?? 'N/A' }}</td>
                         <td>{{ $user->localidad->nombre ?? 'N/A' }}</td>
                         <td>{{ $user->barrio->nombre ?? 'N/A' }}</td>
